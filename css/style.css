@@ -253,7 +253,7 @@ float:left; margin-left:45px;}
  #map .googlemap{width:100%; position:absolute; height:500px; left:0px; }
  
 /*||||||||||||||||||||||||||||||||| CONTACT US ||||||||||||||||||||||||||||||*/
-.contactwrapper{ height:500px; width:100%; text-align:center;}
+.contactwrapper{ height:550px; width:100%; text-align:center;}
 .contactwrapper h3{ color:#cf0e1e; font-size:35px;  letter-spacing:8px; font-family:Economica-bold; margin-top:30px; margin-bottom:50px;}
 
 .contactwrapper  h3::before{content:url(../images/rectangle.png); position:relative; margin-right:15px;
@@ -280,7 +280,7 @@ float:left; margin-left:45px;}
 .sixthpop{position:relative; left:0px; top:-108px;  z-index:900; opacity:0; }
 */
 
-.social_icon{margin:5px; position:relative; left:-300px; top:180px; }
+.social_icon{margin:5px; position:relative; left:-600px; top:180px; }
 
 @font-face {
   font-family: 'si';
