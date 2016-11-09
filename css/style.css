@@ -280,6 +280,7 @@ float:left; margin-left:45px;}
 .fifthpop{position:relative; left:490px; top:-108px;  z-index:900; opacity:0; }
 .sixthpop{position:relative; left:0px; top:-108px;  z-index:900; opacity:0; }
 
+.social_icon{position:relative; left:-60px; top:180px;  z-index:999; opacity:1;}
 @font-face {
   font-family: 'si';
   src: url('socicon-v1.5/socicon.eot');
@@ -300,7 +301,6 @@ src: url(socicon-v1.5/socicon.svg) format(svg);
 }
 
 .soc {
-  position:relative; left:-60px; top:180px;  z-index:999; opacity:1;
 overflow:hidden;
 margin:0; padding:0;
 list-style:none;
