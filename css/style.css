@@ -1,4 +1,3 @@
-
 /* Credit:https://www.facebook.com/Mido.HHH */
 
 /*||||||||||||||||||||||||||||||||| GENERAL ||||||||||||||||||||||||||||||*/
@@ -72,6 +71,7 @@ float:left; margin-left:45px;}
 
 .sliderwrapper .slides {
 	height: 100%;
+
 
 	/* Clear fix */
 	
@@ -278,6 +278,83 @@ float:left; margin-left:45px;}
 .fourthpop{position:relative; left:-20px; top:35px;  z-index:900; opacity:0; }
 .fifthpop{position:relative; left:490px; top:-108px;  z-index:900; opacity:0; }
 .sixthpop{position:relative; left:0px; top:-108px;  z-index:900; opacity:0; }
+
+@font-face {
+  font-family: 'si';
+  src: url('socicon-v1.5/socicon.eot');
+  src: url('socicon-v1.5/socicon.eot?#iefix') format('embedded-opentype'),
+       url('socicon-v1.5/socicon.woff') format('woff'),
+       url('socicon-v1.5/socicon.ttf') format('truetype'),
+       url('socicon-v1.5/socicon.svg#icomoonregular') format('svg');
+     font-weight: normal;
+     font-style: normal;
+
+}
+
+@media screen and (-webkit-min-device-pixel-ratio:0) {
+  @font-face {
+    font-family:si;
+src: url(socicon-v1.5/socicon.svg) format(svg);
+  }
+}
+
+.soc {
+overflow:hidden;
+margin:0; padding:0;
+       list-style:none;
+}
+
+.soc li {
+display:inline-block;
+        *display:inline;
+zoom:1;
+}
+
+.soc li a {
+  font-family:si!important;
+  font-style:normal;
+  font-weight:400;
+  -webkit-font-smoothing:antialiased;
+  -moz-osx-font-smoothing:grayscale;
+  -webkit-box-sizing:border-box;
+  -moz-box-sizing:border-box;
+  -ms-box-sizing:border-box;
+  -o-box-sizing:border-box;
+  box-sizing:border-box;
+overflow:hidden;
+         text-decoration:none;
+         text-align:center;
+display:block;
+position: relative;
+          z-index: 1;
+width: 44px;
+height: 44px;
+        line-height: 44px;
+        font-size: 24px;
+        -webkit-border-radius: 10px;
+        -moz-border-radius: 10px;
+        border-radius: 10px;
+        margin-right: 8px;
+color: #ffffff;
+       background-color: none;
+}
+
+.soc-icon-last{
+margin:0 !important;
+}
+
+.soc-facebook {
+  background-color: #3e5b98;
+}
+.soc-facebook:before {
+content:'\e041';
+}
+.soc-github {
+  background-color: #221e1b;
+}
+.soc-github:before {
+content:'\e030';
+}
 
  
 /************************ FOOTER *****************************/
