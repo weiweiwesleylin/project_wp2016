@@ -271,6 +271,7 @@ float:left; margin-left:45px;}
  
  .staff ul {list-style:none;}
   .staff ul li{float:left;}
+
  .pop{}
 .firstpop{position:relative; left:-60px; top:180px;  z-index:999; opacity:1;}
 .secondpop{position:relative; left:-360px; top:180px; ; z-index:900; opacity:0;}
@@ -299,9 +300,10 @@ src: url(socicon-v1.5/socicon.svg) format(svg);
 }
 
 .soc {
+  position:relative; left:-60px; top:180px;  z-index:999; opacity:1;
 overflow:hidden;
 margin:0; padding:0;
-       list-style:none;
+list-style:none;
 }
 
 .soc li {
