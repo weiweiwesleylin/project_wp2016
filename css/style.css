@@ -254,7 +254,7 @@ float:left; margin-left:45px;}
  
 /*||||||||||||||||||||||||||||||||| CONTACT US ||||||||||||||||||||||||||||||*/
  
-.contactwrapper{margin-top:50px; margin-bottom:50px; padding-top:50px; text-align:center;}
+.contactwrapper{margin-top:100px; margin-bottom:50px; padding-top:50px; text-align:center;}
 .contactwrapper h3{ color:#cf0e1e; font-size:35px;  letter-spacing:8px; font-family:Economica-bold; margin-top:30px; margin-bottom:50px;}
 
 .contactwrapper  h3::before{content:url(../images/rectangle.png); position:relative; margin-right:15px;
@@ -271,7 +271,7 @@ float:left; margin-left:45px;}
  
  .staff ul {list-style:none;}
   .staff ul li{float:left;}
-/*
+
 .pop{}
 .firstpop{position:relative; left:-60px; top:180px;  z-index:999; opacity:1;}
 .secondpop{position:relative; left:-360px; top:180px; ; z-index:900; opacity:0;}
@@ -279,7 +279,7 @@ float:left; margin-left:45px;}
 .fourthpop{position:relative; left:-20px; top:35px;  z-index:900; opacity:0; }
 .fifthpop{position:relative; left:490px; top:-108px;  z-index:900; opacity:0; }
 .sixthpop{position:relative; left:0px; top:-108px;  z-index:900; opacity:0; }
-*/
+
 
 .social_icon{margin:5px; position:relative; left:-200px; top:180px; }
 @font-face {
