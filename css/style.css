@@ -271,27 +271,27 @@ float:left; margin-left:45px;}
  
  .staff ul {list-style:none;}
   .staff ul li{float:left;}
-
- .pop{}
+/*
+.pop{}
 .firstpop{position:relative; left:-60px; top:180px;  z-index:999; opacity:1;}
 .secondpop{position:relative; left:-360px; top:180px; ; z-index:900; opacity:0;}
 .thirdpop{position:relative; left:300px; top:35px;  z-index:900; opacity:0; }
 .fourthpop{position:relative; left:-20px; top:35px;  z-index:900; opacity:0; }
 .fifthpop{position:relative; left:490px; top:-108px;  z-index:900; opacity:0; }
 .sixthpop{position:relative; left:0px; top:-108px;  z-index:900; opacity:0; }
-
-.social_icon{position:relative; left:-60px; top:180px;  z-index:999; opacity:1;}
-@font-face {
-  font-family: 'si';
-  src: url('socicon-v1.5/socicon.eot');
-  src: url('socicon-v1.5/socicon.eot?#iefix') format('embedded-opentype'),
+*/
+  .social_icon{margin:5px;}
+  @font-face {
+    font-family: 'si';
+src: url('socicon-v1.5/socicon.eot');
+src: url('socicon-v1.5/socicon.eot?#iefix') format('embedded-opentype'),
        url('socicon-v1.5/socicon.woff') format('woff'),
        url('socicon-v1.5/socicon.ttf') format('truetype'),
        url('socicon-v1.5/socicon.svg#icomoonregular') format('svg');
      font-weight: normal;
      font-style: normal;
 
-}
+  }
 
 @media screen and (-webkit-min-device-pixel-ratio:0) {
   @font-face {
@@ -303,7 +303,7 @@ src: url(socicon-v1.5/socicon.svg) format(svg);
 .soc {
 overflow:hidden;
 margin:0; padding:0;
-list-style:none;
+       list-style:none;
 }
 
 .soc li {
@@ -358,7 +358,6 @@ content:'\e041';
 content:'\e030';
 }
 
- 
 /************************ FOOTER *****************************/
 .footerwrapper{height:530px; background:#252b33; margin-top:-50px; border-top:4px solid #a8aaad;}
 footer{text-align:center; }
