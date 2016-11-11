@@ -543,9 +543,9 @@ float:left; margin-left:45px;}
 
   .staff ul li{float:left;}
 
-#soc1{position:relative; margin:0; border:0; padding-left:5px; padding-right:5px left:0px; z-index:500;}
-#soc2{position:relative; margin:0; border:0; left:80px; z-index:500;}
-#soc3{position:relative; margin:0; border:0; left:160px; z-index:500;}
+#soc1{position:relative; margin:0; border:0; height:35px; width:80px;left:50px; z-index:500;}
+#soc2{position:relative; margin:0; border:0; left:210px; z-index:500;}
+#soc3{position:relative; margin:0; border:0; left:370px; z-index:500;}
 
 /****Footer****/
 .footerwrapper{height:530px; background:#252b33; margin-top:-200px; border-top:4px solid #a8aaad;}
