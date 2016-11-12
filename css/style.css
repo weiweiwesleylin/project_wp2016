@@ -509,7 +509,7 @@ float:left; margin-left:45px;}
 
 /*||||||||||||||||||||||||||||||||| CONTACT US ||||||||||||||||||||||||||||||*/
 
-.contactwrapper{height:500px; text-align:center;}
+.contactwrapper{height:550px; text-align:center;}
 
 .contactwrapper h3{ color:#cf0e1e; font-size:35px;  letter-spacing:8px; font-family:Economica-bold; margin-top:30px; margin-bottom:50px;}
 
@@ -535,13 +535,13 @@ float:left; margin-left:45px;}
 
  opacity:0.4; cursor:pointer;}
 
-.contactwrapper .staff{display:block; position:relative; margin: 0px auto;}
+.contactwrapper .staff{display:block; position:relative; margin: 0px auto; width:100%}
 
 .staff ul {list-style:none;}
 
 .staff ul li{float:left;}
 
-.social_icon{position:relative; top:200px;}
+.social_icon{position:relative; top:180px;}
 #soc1{position:absolute; width:110px; left:50px; z-index:500;}
 #soc2{position:absolute; width:110px; left:250px; z-index:500;}
 #soc3{position:absolute; width:110px; left:460px; z-index:500;}
