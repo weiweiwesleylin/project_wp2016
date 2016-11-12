@@ -543,9 +543,9 @@ float:left; margin-left:45px;}
 
 .staff ul li{float:left;}
 
-#soc1{position:relative; width:110; margin:0; border:0; left:50px; z-index:500;}
-#soc2{position:relative; width:110; margin:0; border:0; left:250px; z-index:500;}
-#soc3{position:relative; width:110; margin:0; border:0; left:460px; z-index:500;}
+#soc1{position:relative; width:110px; margin:0; border:0; left:50px; z-index:500;}
+#soc2{position:relative; width:110px; margin:0; border:0; left:250px; z-index:500;}
+#soc3{position:relative; width:110px; margin:0; border:0; left:460px; z-index:500;}
 .social_icon ul li{display:inline;}
 
 /****Footer****/
