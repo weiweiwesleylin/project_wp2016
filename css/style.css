@@ -439,11 +439,11 @@ float:left; margin-left:45px;}
 
 .bookonlinewrapper #bookonline h3{ color:#cf0e1e; font-size:35px;  letter-spacing:8px; font-family:cursive-bold; margin-top:30px; margin-bottom:50px;}
 
-.bookonlinewrapper #bookonline h3::before{content:url(../images/rectangle.png); position:relative; margin-right:15px;
+.bookonlinewrapper #bookonline h3::before{position:relative; margin-right:15px;
 
   top:-10px;}
 
-  .bookonlinewrapper #bookonline h3::after{content:url(../images/rectangle.png); position:relative;  margin-left:15px; 
+  .bookonlinewrapper #bookonline h3::after{ position:relative;  margin-left:15px; 
 
  top:-10px;}
 
