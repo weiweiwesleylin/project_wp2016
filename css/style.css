@@ -263,13 +263,13 @@ float:left; margin-left:45px;}
 
 .item{float:left;  width:366px; margin-top:50px;}
 
-.item h3{ font-size:25px; color:white; margin-top:2px}
+.item h3,p{ font-size:25px; color:white; margin-top:2px}
 
 .item img{border:5px solid white;}
 
 .item2{float:left;  width:366px; margin-top:50px;}
 
-.item2 h3{ font-size:25px; color:black;}
+.item2 h3{ font-size:25px; color:white;}
 
 .item2 img{border:5px solid white;}
 
