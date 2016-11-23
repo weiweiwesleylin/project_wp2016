@@ -45,19 +45,14 @@ new WOW().init();
 <div class="headerwrapper">
 	<div id="header" class="container">
 		<div class="logo"> <a href="#"><img src="images/logo.jpg" alt="logo" width="165" height="74"></a> </div> <!--end of Logo-->
-      <div class="ui three buttons">
-        <button class="ui active button">One</button>
-        <button class="ui button">Two</button>
-        <button class="ui button">Three</button>
-      </div> 
-      <nav>
-        <ul id="navigations">
-          <li><a href="#navigations">HOME</a></li>
-          <li> <a href="#slider">ABOUT</a></li>
-          <li><a href="#bestdishes">MENU</a></li>
-          <li><a href="#contactus">CONTACT</a></li>
-        </ul>
-      </nav>
+        <nav>
+            <ul id="navigations">
+                <li><a href="#navigations">HOME</a></li>
+                <li> <a href="#slider">ABOUT</a></li>
+                <li><a href="#bestdishes">MENU</a></li>
+                <li><a href="#contactus">CONTACT</a></li>
+            </ul>
+        </nav>
   </div> <!--end of header-->
 </div> <!-- end of headerwrapper-->
 
@@ -103,12 +98,17 @@ new WOW().init();
 <div class="bestdisheswrapper">
   <div id="bestdishes" class="container">
        
+
+
+<div class="bestdisheswrapper">
+  <div id="bestdishes" class="container">
+       
 	  <h2 class="wow fadeInUp" data-wow-delay="0.3s">BEST FRUITS</h2>
       <div class="slider">
         <ul class="slides">
           <li class="slide">
             <div class="item">
-              <img src="images/mango.jpg" width="226" height="225" alt="sliderimg" class="wow flipInX"
+              <img src="images/mango.jpg" width="226" height="225" alt="sliderimg" id="mango" class="wow flipInX"
                    data-wow-delay=".8s"> 
                 <h3>Mango</h3>
                   <div class="fruit" data-daily-price="20">
@@ -125,15 +125,31 @@ new WOW().init();
                       </div>  
                     </div>
                   </div>    
-<!--                          <form>
-                          <select name="orderNum">
-                          　<option value="1">1</option>
-                          　<option value="2">2</option>
-                          　<option value="3">3</option>
-                          　<option value="4">4</option>
-                          　<option value="5">5</option>
-                          </select>
-                          </form>-->
+              <div class="ui modal">
+                <i class="close icon"></i>
+                <div class="header">
+                  芒果
+                </div>
+                <div class="image content">
+                  <div class="ui medium image">
+                    <img src="images/mango.jpg">
+                  </div>
+                  <div class="description">
+                    <div class="ui header">夏天就是要吃芒果</div>
+                    <p>芒果學名為 Mangifera indica，英文為Mango，台語則寫作「檨仔」，為原產於印度的熱帶果樹，為漆樹科芒果屬植物，自17世紀就陸續引入台灣，相當適應台灣環境而被大量栽培。產季約在每年6～9月，台灣各地栽培有幾十個品種，最常見的是土芒果、愛文與金煌。</p>
+                    <p>喜歡我們的芒果嗎?</p>
+                  </div>
+                </div>
+                <div class="actions">
+                  <div class="ui black deny button">
+                    不喜歡
+                  </div>
+                  <div class="ui positive right labeled icon button">
+                    給個讚
+                    <i class="checkmark icon"></i>
+                  </div>
+                </div>
+              </div>    
             </div> <!-- end of item-->
                       
                    <div class="item2">
@@ -256,16 +272,6 @@ new WOW().init();
               <div class="line"></div>
               
           <div class="review">
-        	<p><strong>&#8220; </strong>This is Photoshop's version  of Lorem Ipsum. Proin gravida nibh vel velit auctor 
-            aliquet. Aenean 			            sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum,
-             nec sagittis sem nibh id elit.
-             Duis sed odio sit amet nibh vulputate  a ornare odio. Sed non  mauris vitae erat consequat  
-            <strong>&#8221;</strong></p>
-             
-             <h4>- CATHREINE JOHNES</h4>
-            
-            
-        	</div> <!-- end of review-->
              
               
               
