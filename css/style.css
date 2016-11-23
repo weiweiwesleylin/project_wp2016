@@ -413,9 +413,7 @@ float:left; margin-left:45px;}
 
 .orderonlinewrapper{text-align:center;}
 
-.orderonlinewrapper #orderonline{}
-
-.orderonlinewrapper #orderonline h3{ color:#cf0e1e; font-size:35px;  letter-spacing:8px; font-family:cursive-bold; margin-top:30px; margin-bottom:50px;}
+.orderonlinewrapper h3{ color:#cf0e1e; font-size:35px;  letter-spacing:8px; font-family:cursive; font-weight:bold; margin-top:30px; margin-bottom:50px;}
 
 /*
 .orderonlinewrapper #orderonline h3::before{position:relative; margin-right:15px;
@@ -424,28 +422,26 @@ float:left; margin-left:45px;}
 
 .orderonlinewrapper #orderonline h3::after{ position:relative;  margin-left:15px; 
 
- top:-10px;}
-
+ top:-1; font-wei; font-weight:bold;ld;
  */
- .name{background:#383636;  width:470px; height:87px; background-image:url(../images/icon4.png); background-position:7px 7px; background-repeat:no-repeat; border-radius:8px; border:0px; color:#515051; font-size:25px; font-family:hansen; padding:0 30px;
+ .name{background:#383636;  width:450px; height:87px; background-image:url(../images/icon4.png); background-position:7px 7px; background-repeat:no-repeat; border-radius:8px; border:0px; color:#515051; font-size:25px; font-family:hansen; padding:0 30px;
 
  line-height:87px; background-position:95% 50%; margin-bottom:20px; float:left;}
 
 
 
-.email{background:#383636;  width:470px; height:87px; background-image:url(../images/icon3.png); background-position:7px 7px; background-repeat:no-repeat; border-radius:8px; border:0px; color:#515051; font-size:25px; font-family:hansen; padding:0 30px;
+.email{background:#383636;  width:450px; height:87px; background-image:url(../images/icon3.png); background-position:7px 7px; background-repeat:no-repeat; border-radius:8px; border:0px; color:#515051; font-size:25px; font-family:hansen; padding:0 30px;
 
  line-height:87px; background-position:95% 50%; margin-top:5px; float:right; }
 
  
 
-.cellphone{background:#383636;  width:300px; height:87px; background-image:url(../images/icon_phone.png); background-position:7px 7px; background-repeat:no-repeat; border-radius:8px; border:0px; color:#515051; font-size:25px; font-family:hansen; padding:0 30px;
+.cellphone{background:#383636;  width:450px; height:87px; background-image:url(../images/icon_phone_2.png); background-position:7px 7px; background-repeat:no-repeat; border-radius:8px; border:0px; color:#515051; font-size:25px; font-family:hansen; padding:0 30px;
 
  line-height:87px; background-position:95% 50%; margin-top:5px; float:left; }
 
 
-
-.school_num{background:#383636;  width:300px; height:87px; background-image:url(../images/icon_schoolnum.png); background-position:7px 7px; background-repeat:no-repeat; border-radius:8px; border:0px; color:#515051; font-size:25px; font-family:hansen; padding:0 30px;
+.school_num{background:#383636;  width:450px; height:87px; background-image:url(../images/icon_schoolnum_2.png); background-position:7px 7px; background-repeat:no-repeat; border-radius:8px; border:0px; color:#515051; font-size:25px; font-family:hansen; padding:0 30px;
 
  line-height:87px; background-position:95% 50%; margin-bottom:20px; float:right }
 
@@ -503,7 +499,7 @@ float:left; margin-left:45px;}
 
 .staff ul li{float:left;}
 
-.soc-icon{position:relative;left:40px;}
+.soc-icon{position:relative;left:70px;}
 /*.soc-icon ul li{display:inline-block;}
 
 /****Footer****/
