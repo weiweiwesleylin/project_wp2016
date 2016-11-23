@@ -96,7 +96,7 @@ animation:rubberBand 0.9s; -webkit-animation:rubberBand 0.9s;}
 
 
 
-.sliderwrapper .slides h5{color:#cf0f1e; font-family:Economica-Bold; font-size:34px; margin-bottom:30px; margin-left:45px;}
+.sliderwrapper .slides h5{color:#cf0f1e; font-family:cursive; font-weight:bold; font-size:34px; margin-bottom:30px; margin-left:45px;}
 
 .sliderwrapper .slides p{color:#454242; font-family:arial; width:530px; line-height:2em; font-weight:bold; font-size:18px;
 
@@ -240,7 +240,7 @@ float:left; margin-left:45px;}
 
  .bestdishes{}
 
- .bestdisheswrapper #bestdishes h2 {color:white; font-size:35px;  letter-spacing:3px; font-family:Economica-bold;; margin-top:30px;}
+ .bestdisheswrapper #bestdishes h2 {color:white; font-size:35px;  letter-spacing:3px; font-family:cursive; font-weight:bold; margin-top:30px;}
 
 /*
 .bestdisheswrapper #bestdishes h2::before{content:url(../images/rectangle.png); position:relative; margin-right:15px;
@@ -407,47 +407,67 @@ float:left; margin-left:45px;}
 
 
 
+/*|||||||||||||||||||||||||||||||| ORDER ONLINE ||||||||||||||||||||||||||||||*/
 
 
-/*||||||||||||||||||||||||||||||||| BOOK ONLINE ||||||||||||||||||||||||||||||*/
 
+.orderonlinewrapper{text-align:center;}
 
-.bookonlinewrapper{text-align:center;}
-.bookonlinewrapper #bookonline{}
-.bookonlinewrapper #bookonline h3{ color:#cf0e1e; font-size:35px;  letter-spacing:8px; font-family:Economica-bold; margin-top:30px; margin-bottom:50px;}
-.bookonlinewrapper #bookonline h3::before{content:url(../images/rectangle.png); position:relative; margin-right:15px;
+.orderonlinewrapper h3{ color:#cf0e1e; font-size:35px;  letter-spacing:8px; font-family:cursive; font-weight:bold; margin-top:30px; margin-bottom:50px;}
+
+/*
+.orderonlinewrapper #orderonline h3::before{position:relative; margin-right:15px;
+`
   top:-10px;}
-  .bookonlinewrapper #bookonline h3::after{content:url(../images/rectangle.png); position:relative;  margin-left:15px; 
- top:-10px;}
- .name{background:#383636;  width:470px; height:87px; background-image:url(../images/icon4.png); background-position:7px 7px; background-repeat:no-repeat; border-radius:8px; border:0px; color:#515051; font-size:25px; font-family:hansen; padding:0 30px;
+
+.orderonlinewrapper #orderonline h3::after{ position:relative;  margin-left:15px; 
+
+ top:-1; font-wei; font-weight:bold;ld;
+ */
+ .name{background:#383636;  width:450px; height:87px; background-image:url(../images/icon4.png); background-position:7px 7px; background-repeat:no-repeat; border-radius:8px; border:0px; color:#515051; font-size:25px; font-family:hansen; padding:0 30px;
+
  line-height:87px; background-position:95% 50%; margin-bottom:20px; float:left;}
 
-.email{background:#383636;  width:470px; height:87px; background-image:url(../images/icon3.png); background-position:7px 7px; background-repeat:no-repeat; border-radius:8px; border:0px; color:#515051; font-size:25px; font-family:hansen; padding:0 30px;
- line-height:87px; background-position:95% 50%; margin-bottom:20px; float:right; }
- 
- .from{background:#383636;  width:300px; height:87px; background-image:url(../images/icon2.png); background-position:7px 7px; background-repeat:no-repeat; border-radius:8px; border:0px; color:#515051; font-size:25px; font-family:hansen; padding:0 30px;
- line-height:87px; background-position:95% 50%; margin-top:5px; }
 
-.to{background:#383636;  width:300px; height:87px; background-image:url(../images/icon2.png); background-position:7px 7px; background-repeat:no-repeat; border-radius:8px; border:0px; color:#515051; font-size:25px; font-family:hansen; padding:0 30px;
- line-height:87px; background-position:95% 50%; margin-top:5px; }
+
+.email{background:#383636;  width:450px; height:87px; background-image:url(../images/icon3.png); background-position:7px 7px; background-repeat:no-repeat; border-radius:8px; border:0px; color:#515051; font-size:25px; font-family:hansen; padding:0 30px;
+
+ line-height:87px; background-position:95% 50%; margin-top:5px; float:right; }
+
  
+
+.cellphone{background:#383636;  width:450px; height:87px; background-image:url(../images/icon_phone_2.png); background-position:7px 7px; background-repeat:no-repeat; border-radius:8px; border:0px; color:#515051; font-size:25px; font-family:hansen; padding:0 30px;
+
+ line-height:87px; background-position:95% 50%; margin-top:5px; float:left; }
+
+
+.school_num{background:#383636;  width:450px; height:87px; background-image:url(../images/icon_schoolnum_2.png); background-position:7px 7px; background-repeat:no-repeat; border-radius:8px; border:0px; color:#515051; font-size:25px; font-family:hansen; padding:0 30px;
+
+ line-height:87px; background-position:95% 50%; margin-bottom:20px; float:right }
+
+ 
+/*
 .persons{background:#383636;  width:300px; height:87px; background-image:url(../images/icon.png); background-position:7px 7px; background-repeat:no-repeat; border-radius:8px; border:0px; color:#515051; font-size:25px; font-family:hansen; padding:0 30px;
+
  line-height:87px; background-position:95% 50%; margin-top:5px; }
- 
+*/
  
  .booknow{ background:#ff5a0b; height:52px; border-radius:10px; border:0px; width:839px; margin-top:20px; border-bottom:5px solid #c84d29; margin-bottom:40px; font-family:OSWALD-BOLD; font-size:30px; color:white; line-height:47px; cursor:pointer;}
+
  .booknow:active{ top:2px; border-bottom:3px solid #c84d29;}
+
  .booknow:hover{}
+
  
+
  .booknow{position:relative;}
 
 
 
 /*||||||||||||||||||||||||||||||||| CONTACT US ||||||||||||||||||||||||||||||*/
+.contactwrapper{height:350px; text-align:center;}
 
-.contactwrapper{height:550px; text-align:center;}
-
-.contactwrapper h3{ color:#cf0e1e; font-size:35px;  letter-spacing:8px; font-family:cursive-bold; margin-top:30px; margin-bottom:50px;}
+.contactwrapper h3{ color:#cf0e1e; font-size:35px;  letter-spacing:8px; font-family:cursive; font-weight:bold; margin-top:30px; margin-bottom:50px;}
 
 
 /*
@@ -478,14 +498,12 @@ float:left; margin-left:45px;}
 
 .staff ul li{float:left;}
 
-.social_icon{position:relative; top:180px;}
-#soc1{position:absolute; width:110px; left:270px; z-index:500;}
-#soc2{position:absolute; width:110px; left:470px; z-index:500;}
-#soc3{position:absolute; width:110px; left:690px; z-index:500;}
-.social_icon ul li{display:inline-block;}
+.soc-icon{position:relative;left:70px;}
+/*.soc-icon ul li{display:inline-block;}
 
 /****Footer****/
-.footerwrapper{height:530px; width:100%; background:#252b33; margin-top:-200px; border-top:4px solid #a8aaad;}
+
+.footerwrapper{width:100%; background:#252b33; border-top:4px solid #a8aaad;}
 
 footer{text-align:center; }
 
