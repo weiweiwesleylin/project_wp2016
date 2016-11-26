@@ -257,7 +257,7 @@ float:left; margin-left:45px;}
 
 .item h3,p{ font-size:25px; color:white; margin-top:2px}
 
-.item img{border:5px solid white;}
+.item img{width:100%; height:auto; border:5px solid white;}
 
 .item2{float:left;  width:366px; margin-top:50px;}
 
