@@ -9,9 +9,9 @@ $(document).ready(function() {
 });
 
 
-//$(document).ready(function(){
+/*$(document).ready(function(){
   $('#mango').click(function(){
     $('.ui.modal').modal('show');
   });
-//});
+});
 */
