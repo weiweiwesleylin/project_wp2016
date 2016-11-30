@@ -240,7 +240,7 @@ float:left; margin-left:45px;}
 
  .bestdishes{}
 
- .bestdisheswrapper #bestdishes h2 {color:white; font-size:35px;  letter-spacing:3px; font-family:cursive; font-weight:bold; margin-top:30px;}
+ .bestdisheswrapper #bestdishes h2 {color:white; font-size:35px;  letter-spacing:3px; font-family:'Noto Sans TC'; font-weight:bold; margin-top:30px;}
 
 /*
 .bestdisheswrapper #bestdishes h2::before{content:url(../images/rectangle.png); position:relative; margin-right:15px;
@@ -251,7 +251,7 @@ float:left; margin-left:45px;}
 
  top:-10px;}
 */
- .bestdisheswrapper h3{font-family:Economica-Regular; font-size:30px; text-transform:uppercase; letter-spacing:2px;}
+ .bestdisheswrapper h3{font-family:'Noto Sans TC'; font-size:30px; text-transform:uppercase; letter-spacing:2px;}
 
 .item{float:left;   width:366px;  margin-top:50px;}
 
@@ -454,7 +454,7 @@ float:left; margin-left:45px;}
  line-height:87px; background-position:95% 50%; margin-top:5px; }
 */
  
- .booknow{ background:#ff5a0b; height:52px; border-radius:10px; border:0px; width:839px; margin-top:20px; border-bottom:5px solid #c84d29; margin-bottom:40px; font-family:OSWALD-BOLD; font-size:30px; color:white; line-height:47px; cursor:pointer;}
+ .booknow{ background:#ff5a0b; height:52px; border-radius:10px; border:0px; width:839px; margin-top:20px; border-bottom:5px solid #c84d29; margin-bottom:40px; font-family:'Noto Sans TC'; font-size:30px; color:white; line-height:47px; cursor:pointer;}
 
  .booknow:active{ top:2px; border-bottom:3px solid #c84d29;}
 
@@ -469,7 +469,7 @@ float:left; margin-left:45px;}
 /*||||||||||||||||||||||||||||||||| CONTACT US ||||||||||||||||||||||||||||||*/
 .contactwrapper{height:350px; text-align:center;}
 
-.contactwrapper h3{ color:#cf0e1e; font-size:35px;  letter-spacing:8px; font-family:cursive; font-weight:bold; margin-top:30px; margin-bottom:50px;}
+.contactwrapper h3{ color:#cf0e1e; font-size:35px;  letter-spacing:8px; font-family:'Noto Sans TC'; font-weight:bold; margin-top:30px; margin-bottom:50px;}
 
 
 /*
@@ -509,7 +509,7 @@ float:left; margin-left:45px;}
 
 footer{text-align:center; }
 
-footer h2{font-family:OSWALD-regular; font-size:20px; color:#dedede;}
+footer h2{font-family:'Noto Sans TC'; font-size:20px; color:#dedede;}
 
 
 
@@ -525,9 +525,9 @@ footer h2{margin-bottom:40px;}
 
 .review{margin-top:5px; text-align:left;}
 
-.review p{color:#a3c9e7; font-size:15px; font-family:hansen; }
+.review p{color:#a3c9e7; font-size:15px; font-family:'Noto Sans TC'; }
 
-.review span2{color:#d6d6d6; font-size:26px; font-family:hansen;}
+.review span2{color:#d6d6d6; font-size:26px; font-family:'Noto Sans TC';}
 
 .customerreview h2{text-align:left;}
 
