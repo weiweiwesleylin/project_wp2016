@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 <!DOCTYPE html> 
 <!--
     Free  Template by Mohamed Sobhy
@@ -257,3 +258,301 @@ new WOW().init();
 </body>
 
 </html>
+=======
+<!DOCTYPE html> 
+<!--
+    Free  Template by Mohamed Sobhy
+    https://www.facebook.com/Mido.HHH
+-->
+<html lang="en">
+<head>
+	<title>Farmers' market</title>
+    
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+   <script src="js/jquery.js"></script> 
+	<script src="js/jquery.glide.js"></script>
+
+<!-- Semantic UI -->
+ <link rel="stylesheet" type="text/css" href="semantic/dist/semantic.min.css"> 
+ <script src="semantic/dist/semantic.min.js"></script>
+<!--end of Semantic-->
+
+    
+    <link rel="stylesheet" href="css/style.css">
+      <link rel="stylesheet" href="css/animate.css">
+    <script type="text/javascript" src="js/MyJQ.js"></script>
+    <script src="js/jquery.localScroll.min.js" type="text/javascript"></script>
+	<script src="js/jquery.scrollTo.min.js" type="text/javascript"></script> 
+    <script src="js/wow.min.js" type="text/javascript"></script> 
+
+<!-- scroll function -->
+<script type="text/javascript">
+$(document).ready(function() {
+   $('#navigations').localScroll({duration:800});
+});
+</script>
+
+
+<script src="js/wow.min.js"></script>
+<script>
+new WOW().init();
+</script>
+
+
+<script src="js/jquery.scrollnb.js" type="text/javascript"></script>
+</head>
+<body>
+
+<!--============ Navigation ============-->
+
+<div class="headerwrapper">
+	<div id="header" class="container">
+		<div class="logo"> <a href="#"><img src="images/logo.jpg" alt="logo" width="165" height="74"></a> </div> <!--end of Logo--> 
+      <nav>
+        <ul id="navigations">
+          <li><a href="#navigations">HOME</a></li>
+          <li> <a href="#slider">ABOUT</a></li>
+          <li><a href="#bestdishes">MENU</a></li>
+          <li><a href="#contactus">CONTACT</a></li>
+        </ul>
+      </nav>
+  </div> <!--end of header-->
+</div> <!-- end of headerwrapper-->
+
+
+<!--============ Slider ============-->
+<div class="sliderwrapper">
+      <div id="slider" class="container">
+           <div class="slider">
+      			<ul class="slides">
+    		 	 	  <li class="slide">
+                <h5 class="wow fadeInDown" data-wow-delay="0.8s">動機 </h5>
+                  <p class="wow fadeInUp" data-wow-delay="0.8s">大學生不常吃水果的原因</br>
+                   1. 早上起不來去菜市場買水果</br>
+                   2. 大超商的水果不太新鮮</br>
+                   3. 無法像在家裡家人會準備好水果</p>
+                  <img src="images/sample.png" width="375" height="250" class="wow fadeInRight" 
+                      data-wow-delay="0.8s" alt="slide1img"> 
+              </li>
+      			 	<li class="slide">
+                <h5 class="wow fadeInDown" data-wow-delay="0.8s">惠芸有機蔬果園 </h5>
+                  <p class="wow fadeInUp" data-wow-delay="0.8s">惠芸有機蔬果園位於高雄市橋頭區中崎有機農業專區內,秉持著有機農業對生態環保的關懷，採不使用化肥、除草劑及任何農藥的種植方式，營造更多元生態的有機環境而努力。
+                      以人養地、地養人的理念，沒有農藥的汙染，正是確保身體健康的唯一選擇。栽種面積4分地火龍果{粉紅色、紅色、白色}2分地種無花果、水晶芭樂、洛神花、香蕉、番茄、南瓜等蔬菜水果，期望能以最自然的耕種恢復原有的生態環境，同時展現出有機農業對生態保育的重要性。</p>
+                  <img src="images/farmer1.png" width="300" height="200" class="wow fadeInRight" 
+                      data-wow-delay="0.8s" alt="slideimg2"> 
+              </li>
+     			 	  <li class="slide">
+                <h5 class="wow fadeInDown" data-wow-delay="0.8s">Our goal </h5>
+                <p class="wow fadeInUp" data-wow-delay="0.8s">1. platform for studnts to book online</br>
+                 2. hold farmes' market on campus</p>
+                <img src="images/goods.png" width="317" height="256" class="wow fadeInRight" 
+                      data-wow-delay="0.8s" alt="slideimg2"> 
+              </li>
+        	  </ul>
+          </div>
+      </div> <!-- End of Slider-->
+</div> <!-- end of sliderwrapper-->
+
+
+
+<!--============ Best Dishes ============-->
+
+
+<div class="bestdisheswrapper">
+  <div id="bestdishes" class="container">
+       
+	  <h2 class="wow fadeInUp" data-wow-delay="0.3s">有機蔬果</h2>
+      <div class="slider">
+        <ul class="slides">
+          <li class="slide">
+            <div class="item">
+              <img src="images/dragonfruit4.jpg" width="226" height="225" alt="sliderimg" id="dragonfruit" class="wow flipInX"
+                   data-wow-delay=".8s"> 
+                <h3>火龍果</h3>
+                  <div class="fruit" data-daily-price="20">
+                    <p>$<span id="total">20元</span> 能買到 <span id="kg">1</span>斤重</p>
+                    <p>
+                      <label for="kgs">要幾斤</label>
+                    </p>
+                    <div class="ui right labeled input">
+                      <p>
+                        <input type="number" id="kgs" value="1">
+                      </p>  
+                    </div>  
+                  </div>
+
+               <!--dragonfruit modal -->  
+                  <div class="ui modal">
+                    <i class="close icon"></i>
+                    <div class="header">
+                     火龍果
+                    </div>
+                    <div class="image content">
+                      <div class="ui medium image">
+                        <img src="images/dragonfruit4.jpg">
+                      </div>
+                      <div class="description">
+                        <div class="ui header">吃火龍果排毒潤腸輕鬆瘦身</div>
+                        <p>火龍果又稱紅龍果、龍珠果，是仙人掌科三角柱屬（Hylocereus）或蛇鞭柱屬（Selenicereus）植物果實，呈現橢圓形，直徑10~12cm，外觀為紅色或黃色，有綠色圓角三角形的葉狀體，白色、紅色或黃色果肉，具有黑色種子的水果。</p>
+                        <p>喜歡我們的火龍果嗎?</p>
+                      </div>
+                    </div>
+                    <div class="actions">
+                      <div class="ui black deny button">
+                       不喜歡
+                      </div>
+                      <div class="ui positive right labeled icon button">
+                       給個讚
+                        <i class="checkmark icon"></i>
+                      </div>
+                    </div>
+                  </div>   
+            </div>
+
+     <script type="text/javascript">
+            $(document).ready(function(){
+              $('#dragonfruit').click(function(){
+                  $('.ui.modal').modal('show');
+               });
+            });
+     </script>
+
+            <!-- end of item-->
+                      
+                   <div class="item2">
+                          <img src="images/banana2.JPG" width="226" height="225" alt="sliderimg" class="wow flipInX"
+                           data-wow-delay=".8s"> 
+                          <h3>香蕉</h3>
+                      </div> <!-- end of item-->
+                      
+                   <div class="item3">
+                          <img src="images/tomato4.jpg" width="226" height="225" alt="sliderimg" class="wow flipInX"
+                           data-wow-delay=".8s"> 
+                          <h3>番茄</h3>
+                      </div> <!-- end of item-->
+                  </li>
+                   <li class="slide">
+                    <div class="item">
+                          <img src="images/rape2.JPG" width="226" height="225" alt="sliderimg" > 
+                          <h3>油菜</h3>
+                      </div> <!-- end of item-->
+                      
+                   <div class="item2">
+                          <img src="images/bokchoy1.jpg" width="226" height="225" alt="sliderimg"> 
+                          <h3>小白菜</h3>
+                      </div> <!-- end of item-->
+                      
+                   <div class="item3">
+                          <img src="images/zucchini3.jpg" width="226" height="225" alt="sliderimg"> 
+                          <h3>節瓜</h3>
+                      </div> <!-- end of item-->
+                  </li>
+                   
+        </ul>
+      </div> <!-- end of slider-->
+    </div> <!-- end of besth dishes-->
+</div> <!-- end of bestdishes wrapper-->
+
+<!--============ Order online ============-->
+
+<div class="orderonlinewrapper">
+  <div class="container" id="oderonline">
+    
+    <h3 class="wow fadeInUp" data-wow-delay="0.3s"> ORDER ONLINE</h3>
+    <form>
+    <input type="text" class="name wow zoomIn" placeholder="Your Name" >
+    <input type="text" class="school_num  wow zoomIn" placeholder="Your School Number">
+    <input type="text" class="cellphone wow zoomIn" placeholder="Your Cellphone Number">
+    <input type="text" class="email wow zoomIn" placeholder="Your Email">
+    
+    <button class="booknow wow fadeInUp"> BOOK NOW </button>
+    
+    </form>
+
+  </div> <!-- end of order online-->
+
+</div> <!-- end of order online wrapper-->
+
+<!--============ Contact us ============-->
+
+<!--============ FOOTER ============-->
+
+
+<div class="footerwrapper">
+    <footer class="container">
+        <div class="contactwrapper">
+          <h3 class="wow fadeInUp" data-wow-delay="0.3s">CONTACT US</h3>
+          <div class="staff">
+       	  <ul>
+                  <li>
+                    <img src="images/林威辰.jpg" width="180" height="120" class="myimage wow fadeIn" title="mido" alt="1">
+                    <ul class=soc-icon>
+                      <li><a href="https://www.facebook.com/wesleylin0311?fref=ts"><img src="images/icon/facebook-icon.png" width="30" height="30"></a></li>
+                      <li><a href="https://github.com/weiweiwesleylin"><img src="images/icon/github-icon.png" width="30" height="30"></a></li>
+                    </ul>
+                  </li>
+                 
+                  <li>
+                    <img src="images/鄭旭程.jpg" width="180" height="120" class="myimage2 wow fadeIn" data-wow-delay="0.8s"
+                   alt="1">
+                    <ul class=soc-icon>
+                      <li><a href="https://www.facebook.com/profile.php?id=100002623663543&fref=ts"><img src="images/icon/facebook-icon.png" width="30" height="30"></a></li>
+                      <li><a href="https://github.com/e24032112"><img src="images/icon/github-icon.png" width="30" height="30"></a></li>
+                     </ul>
+                  </li> 
+                  
+                  <li>
+                    <img src="images/蔡宗蕙.jpg" width="180" height="120" class="myimage3 wow fadeIn" data-wow-delay="0.8s" 
+                   alt="1">
+                    <ul class=soc-icon>
+                      <li><a href="https://www.facebook.com/profile.php?id=100002902375258"><img src="images/icon/facebook-icon.png" width="30" height="30"></a></li>
+                      <li><a href="https://github.com/claire-tsai"><img src="images/icon/github-icon.png" width="30" height="30"></a></li> 
+                   </ul>
+                  </li>
+          </ul>   
+
+         </div> <!--end of staff-->
+        </div><!--end of contactwrapper-->
+    </footer> <!-- end of footer-->
+
+</div> <!-- end of footer-->
+
+
+
+
+<!--============ COPYRIGHTS ============-->
+
+
+<script type="text/javascript">
+    $('.sliderwrapper .slider').glide({
+		autoplay: 7000,
+		animationDuration: 3000,
+		arrows: true,
+		
+		
+	
+		});
+	
+</script>
+	
+    <script type="text/javascript">
+    $('.bestdisheswrapper .slider').glide({
+		autoplay: false,
+		animationDuration: 700,
+		arrows: true,
+		navigation:false,
+		
+		
+	
+		});
+	
+	
+</script>
+	
+   
+   
+
+</body>
+
+</html>
+>>>>>>> 0114356c3779a30f4ad33c6bab1f5917d901a906

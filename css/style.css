@@ -234,7 +234,7 @@ float:left; margin-left:45px;}
 
 
 
-.bestdisheswrapper{height:500px; background-color:#c0c0c0; background-size:cover; border-top:3px solid rgba(255,153,0,0.2);
+.bestdisheswrapper{height:1000px; background-color:#c0c0c0; background-size:cover; border-top:3px solid rgba(255,153,0,0.2);
 
  border-bottom:3px solid rgba(255,153,0,0.4);  text-align:center;}
 
@@ -253,11 +253,13 @@ float:left; margin-left:45px;}
 */
  .bestdisheswrapper h3{font-family:Economica-Regular; font-size:30px; text-transform:uppercase; letter-spacing:2px;}
 
-.item{float:left;  width:366px; margin-top:50px;}
+.item{float:left;   width:366px;  margin-top:50px;}
 
-.item h3,p{ font-size:25px; color:white; margin-top:2px}
+.item h3,p{ font-size:20px; color:white; margin-top:2px}
 
 .item img{border:5px solid white;}
+
+.modal p{color:black}
 
 .item2{float:left;  width:366px; margin-top:50px;}
 
