@@ -5,7 +5,7 @@
 
 /*||||||||||||||||||||||||||||||||| GENERAL ||||||||||||||||||||||||||||||*/
 
-
+@import url(http://fonts.googleapis.com/earlyaccess/notosanstc.css);
 
 @font-face{font-family:OSWALD-BOLD; src:url(../fonts/OSWALD-BOLD.TTF);}
 
@@ -50,7 +50,7 @@ iframe {width:100%; height:100%; border:0px; margin:0px; padding:0px; }
 
 .headerwrapper .logo {float:left; line-height:130px; margin-top:15px; }
 
-.headerwrapper nav ul{font-family:Arial; float:right; font-size:16px; font-weight:bold; margin-top:15px; }
+.headerwrapper nav ul{font-family:'Noto Sans TC', sans-serif; float:right; font-size:16px; font-weight:bold; margin-top:15px; }
 
 /*.headerwrapper nav  li{list-style:none; float:left; margin:20px; padding:15px; }
 
