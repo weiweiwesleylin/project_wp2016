@@ -207,22 +207,7 @@ new WOW().init();
     </div>
 
     </form>
-     <script>
-       $('form').submit(function(e){
-       e.preventDefault();
-       $.ajax({
-               url:'post.njs',
-               data:{'name':$('#num').val()},
-               data:{'schnum':$('#num').val()},
-               data:{'cell':$('#num').val()},
-               data:{'email':$('#num').val()},
-               success:(data)=>{
-                                 $('#not').html(data);
-                               }
-                                });
 
-                                           });
-    </script>
 
   </div> <!-- end of order online-->
 
