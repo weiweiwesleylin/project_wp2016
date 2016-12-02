@@ -1,0 +1,17 @@
+﻿/*
+    Jumpeye framework    
+	Version: 1.0.0
+	www.jumpeye.com
+	
+	Created by Jumpeye Components
+ 
+ 
+    Alert style-1
+*/
+
+    .alert.style-1.message  { background  : #c6c7c9; }
+    .alert.style-1.success  { background  : #5c9c1b; }    
+    .alert.style-1.error    { background  : #d01b1d; }    
+    .alert.style-1.info     { background  : #4988c8; }   
+    .alert.style-1.warning  { background  : #f0f1bb; }   
+    .alert.style-1.question { background  : #9a6fc9; }
