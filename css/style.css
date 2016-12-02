@@ -457,13 +457,12 @@ float:left; margin-left:45px;}
 */
 
 
-
- .deliver_order{ height:52px; border-radius:10px; border:0px; width:230px; right:170px; margin-top:20px; margin-right:20px; margin-bottom:40px; font-family:'Noto Sans TC'; font-size:30px; color:white; line-height:47px; cursor:pointer;}
+ .deliver_order{ position:relative; right:170px; top:220px; font-family:'Noto Sans TC'; font-size:30px; color:white; line-height:47px; cursor:pointer;}
  .deliver_order:active{ top:2px; border-bottom:3px solid #c84d29;}
  .deliver_order:hover{}
 
 
- .check_order{ height:52px; border-radius:10px; border:0px; width:230px;  left:170px; margin-top:20px; margin-left:20px; margin-bottom:40px; font-family:'Noto Sans TC'; font-size:30px; color:white; line-height:47px; cursor:pointer;}
+ .check_order{ position:relative; left:170px; top:180px; font-family:'Noto Sans TC'; font-size:30px; color:white; line-height:47px; cursor:pointer;}
  .check_order:active{ top:2px; border-bottom:3px solid #c84d29;}
  .check_order:hover{}
 
