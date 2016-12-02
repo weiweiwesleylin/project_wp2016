@@ -15,6 +15,7 @@
 
 @font-face{font-family:Economica-Bold; src:url(../fonts/Economica-Bold.TTF);}
 
+
 body {background:url(../images/background.jpg); margin:0px; padding:0px; font-family:hansen; font-size:20px;}
 
 .container {width:1100px; margin:auto;}
@@ -413,9 +414,8 @@ float:left; margin-left:45px;}
 
 
 
-.orderonlinewrapper{text-align:center;}
-
-.orderonlinewrapper h3{ color:#cf0e1e; font-size:35px;  letter-spacing:8px; font-family:cursive; font-weight:bold; margin-top:30px; margin-bottom:50px;}
+.orderonlinewrapper{text-align:center; height:400px;}
+.orderonlinewrapper h3{ color:#cf0e1e; font-size:35px;  letter-spacing:8px; font-family:'Noto Sans TC'; font-weight:bold; margin-top:30px; margin-bottom:50px;}
 
 /*
 .orderonlinewrapper #orderonline h3::before{position:relative; margin-right:15px;
@@ -426,39 +426,46 @@ float:left; margin-left:45px;}
 
  top:-1; font-wei; font-weight:bold;ld;
  */
- .name{background:#383636;  width:450px; height:87px; background-image:url(../images/icon4.png); background-position:7px 7px; background-repeat:no-repeat; border-radius:8px; border:0px; color:#515051; font-size:25px; font-family:hansen; padding:0 30px;
+ .name{background:#383636;  width:450px; height:87px; background-image:url(../images/icon4.png); background-position:7px 7px; background-repeat:no-repeat; border-radius:8px; border:0px; color:white; font-size:25px; font-family:'Noto Sans TC'; padding:0 30px;
 
  line-height:87px; background-position:95% 50%; margin-bottom:20px; float:left;}
 
 
 
-.email{background:#383636;  width:450px; height:87px; background-image:url(../images/icon3.png); background-position:7px 7px; background-repeat:no-repeat; border-radius:8px; border:0px; color:#515051; font-size:25px; font-family:hansen; padding:0 30px;
+.email{background:#383636;  width:450px; height:87px; background-image:url(../images/icon3.png); background-position:7px 7px; background-repeat:no-repeat; border-radius:8px; border:0px; color:white; font-size:25px; font-family:'Noto Sans TC'; padding:0 30px;
 
  line-height:87px; background-position:95% 50%; margin-top:5px; float:right; }
 
  
 
-.cellphone{background:#383636;  width:450px; height:87px; background-image:url(../images/icon_phone_2.png); background-position:7px 7px; background-repeat:no-repeat; border-radius:8px; border:0px; color:#515051; font-size:25px; font-family:hansen; padding:0 30px;
+.cellphone{background:#383636;  width:450px; height:87px; background-image:url(../images/icon_phone_2.png); background-position:7px 7px; background-repeat:no-repeat; border-radius:8px; border:0px; color:white; font-size:25px; font-family:'Noto Sans TC'; padding:0 30px;
 
  line-height:87px; background-position:95% 50%; margin-top:5px; float:left; }
 
 
-.school_num{background:#383636;  width:450px; height:87px; background-image:url(../images/icon_schoolnum_2.png); background-position:7px 7px; background-repeat:no-repeat; border-radius:8px; border:0px; color:#515051; font-size:25px; font-family:hansen; padding:0 30px;
+.school_num{background:#383636;  width:450px; height:87px; background-image:url(../images/icon_schoolnum_2.png); background-position:7px 7px; background-repeat:no-repeat; border-radius:8px; border:0px; color:white; font-size:25px; font-family:'Noto Sans TC'; padding:0 30px;
 
  line-height:87px; background-position:95% 50%; margin-bottom:20px; float:right }
 
- 
+.orderonlinewrapper ::-webkit-input-placeholder { /* WebKit, Blink, Edge */
+    color: white;
+  }
 /*
 .persons{background:#383636;  width:300px; height:87px; background-image:url(../images/icon.png); background-position:7px 7px; background-repeat:no-repeat; border-radius:8px; border:0px; color:#515051; font-size:25px; font-family:hansen; padding:0 30px;
 
  line-height:87px; background-position:95% 50%; margin-top:5px; }
 */
- 
- .booknow{ background:#ff5a0b; height:52px; border-radius:10px; border:0px; width:839px; margin-top:20px; border-bottom:5px solid #c84d29; margin-bottom:40px; font-family:'Noto Sans TC'; font-size:30px; color:white; line-height:47px; cursor:pointer;}
 
- .booknow:active{ top:2px; border-bottom:3px solid #c84d29;}
 
- .booknow:hover{}
+ .deliver_order{ position:relative; right:130px; top:220px; font-family:'Noto Sans TC'; font-size:30px; color:white; line-height:47px; cursor:pointer;}
+ .deliver_order:active{ top:2px; border-bottom:3px solid #c84d29;}
+ .deliver_order:hover{}
+
+
+ .check_order{ position:relative; left:130px; top:180px; font-family:'Noto Sans TC'; font-size:30px; color:white; line-height:47px; cursor:pointer;}
+ .check_order:active{ top:2px; border-bottom:3px solid #c84d29;}
+ .check_order:hover{}
+
 
  
 
