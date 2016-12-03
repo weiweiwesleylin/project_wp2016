@@ -10,12 +10,16 @@
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
    <script src="js/jquery.js"></script> 
 	<script src="js/jquery.glide.js"></script>
+<!--JumpeyeFramework-->
+
+<link rel="stylesheet" href="JumpeyeFramework/framework/css/buttons/JFButtonStyle-1.css" />
+<link rel="stylesheet" href="JumpeyeFramework/framework/css/buttons/JFButton.css" />
 
 <!-- Semantic UI -->
  <link rel="stylesheet" type="text/css" href="semantic/dist/semantic.min.css"> 
  <script src="semantic/dist/semantic.min.js"></script>
 <!--end of Semantic-->
-
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
     
     <link rel="stylesheet" href="css/style.css">
       <link rel="stylesheet" href="css/animate.css">
@@ -111,7 +115,7 @@ new WOW().init();
                   <div class="fruit" data-daily-price="20">
                     <p>$<span id="total">20元</span> 能買到 <span id="kg">1</span>斤重</p>
                     <p>
-                      <label for="kgs"></label>
+                      <label for="kgs">要幾斤</label>
                     </p>
                     <div class="ui right labeled input">
                       <p>
@@ -150,9 +154,8 @@ new WOW().init();
 
      <script type="text/javascript">
       $('#dragonfruit').click(function(){
-				console.log('here');
         $('.ui.modal').modal('show');
-      });
+         });
      </script>
 
             <!-- end of item-->
@@ -195,21 +198,42 @@ new WOW().init();
 
 <div class="orderonlinewrapper">
   <div class="container" id="oderonline">
+
+    <h3 class="wow fadeInUp" data-wow-delay="0.3s"> 網路訂購</h3>
+    <form action='post.njs' method='POST'>
+
+    <input type="text"  class="name wow zoomIn"        placeholder="姓名"   name="nm">
+    <input type="text"  class="school_num  wow zoomIn" placeholder="學號"   name="schnum">
+    <input type="text"  class="cellphone wow zoomIn"   placeholder="手機"   name="cell">
+    <input type="text"  class="email wow zoomIn"       placeholder="E-mail" name="email">
+ 
+    <input type="submit" class="large green button style-1 deliver_order" value="送出訂單">
+    <input type="submit" class="large yellow button style-1 check_order" value="查詢訂單">
+  
     
-    <h3 class="wow fadeInUp" data-wow-delay="0.3s"> ORDER ONLINE</h3>
-    <form>
-    <input type="text" class="name wow zoomIn" placeholder="Your Name" >
-    <input type="text" class="school_num  wow zoomIn" placeholder="Your School Number">
-    <input type="text" class="cellphone wow zoomIn" placeholder="Your Cellphone Number">
-    <input type="text" class="email wow zoomIn" placeholder="Your Email">
-    
-    <button class="booknow wow fadeInUp"> BOOK NOW </button>
-    
+
     </form>
+             <script>
+                           $('form').submit(function(e){
+                           $.ajax({
+                           type:"POST",
+                           url:'post.njs',
+                           data:{"nm":nm, "schnum":schnum, "cell":cell, "email":email},
+                           error: function(){
+                                              alert("Something's wrong");
+                                            },
+                           success:(data)=>{
+                                              alert("Welcome Baby");
+                                              container.fadeOut();
+                                           }
+                                                                     });
+                                                      });
+                </script>
 
   </div> <!-- end of order online-->
 
 </div> <!-- end of order online wrapper-->
+
 
 <!--============ Contact us ============-->
 
@@ -218,8 +242,8 @@ new WOW().init();
 
 <div class="footerwrapper">
     <footer class="container">
-        <div class="contactwrapper">
-          <h3 class="wow fadeInUp" data-wow-delay="0.3s">CONTACT US</h3>
+        <div class="contactwrapper" id="contactus">
+          <h3 class="wow fadeInUp" data-wow-delay="0.3s"> 聯絡我們 </h3>
           <div class="staff">
        	  <ul>
                   <li>
