@@ -95,9 +95,9 @@ animation:rubberBand 0.9s; -webkit-animation:rubberBand 0.9s;}
 
 
 
-.sliderwrapper .slides h5{color:#cf0f1e; font-family:'Noto Sans TC'; font-weight:bold; font-size:34px; margin-bottom:30px; margin-left:45px;}
+.sliderwrapper .slides h5{color:#cf0f1e; font-family:"Noto Sans", "Noto Sans CJK TC", sans-serif; font-weight:bold; font-size:34px; margin-bottom:30px; margin-left:45px;}
 
-.sliderwrapper .slides p{color:#454242; font-family:'Noto Sans TC'; width:530px; line-height:2em; font-weight:bold; font-size:18px;
+.sliderwrapper .slides p{color:#454242; font-family:"Noto Sans", "Noto Sans CJK TC", sans-serif; width:530px; line-height:2em; font-weight:bold; font-size:18px;
 
 float:left; margin-left:45px;}
 
