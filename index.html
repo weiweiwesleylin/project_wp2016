@@ -237,7 +237,7 @@ new WOW().init();
                            $.ajax({
                            method:"POST",
                            url:'post.njs',
-                           data:{'nm':$('#nm').val(), 'schnum':$('#schnum').val(), 'cell':$('#cell').val(), 'email
+                            data:{'nm':$('#nm').val(), 'schnum':$('#schnum').val(), 'cell':$('#cell').val(), 'email':$('#email').val()},
                            success:function(){
                                               alert("感謝您的訂購!!!");
 
