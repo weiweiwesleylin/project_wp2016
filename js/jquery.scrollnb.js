@@ -1,9 +1,9 @@
 $(document).ready(function() {
-  $('#kgs').on('keyup', function() {
-    var kgs = +$(this).val();
-    var dailyPrice = +$(this).closest(".fruit").data("daily-price");
-    $('#total').text(kgs * dailyPrice);
-    $('#kg').text($(this).val());
+  $('#kgs1').on('keyup', function() {
+    var kgs1 = +$(this).val();
+    var dailyPrice1 = +$(this).closest(".fruit1").data("daily-price1");
+    $('#total1').text(kgs1 * dailyPrice1);
+    $('#kg1').text($(this).val());
   });
   // add another event handler
 });
