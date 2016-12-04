@@ -208,28 +208,45 @@ new WOW().init();
     <input type="text"  class="cellphone wow zoomIn"   placeholder="手機"   name="cell">
     <input type="text"  class="email wow zoomIn"       placeholder="E-mail" name="email">
  
-    <input type="submit" class="large green button style-1 deliver_order" value="送出訂單">
-    <input type="submit" class="large yellow button style-1 check_order" value="查詢訂單">
-  
+       <br><br><br><br><br><br><br><br>
+    <div class="relative" >
+    <button  id='ajax' class="Button">送出訂單</button>
+    </div>
     
-
     </form>
-             <script>
-                           $('form').submit(function(e){
+           <script>
+
+                           $("#ajax").click(function(e) {
+                           e.preventDefault();
+                           var nm1 = $("#nm").val();
+                           var schnum1 = $("#schnum").val();
+                           var cell1 = $("#cell").val();
+                           var eml1 = $("#email").val();
+                           if(eml1 == "")
+                           {alert("不要留下空白");return;}
+                           else if(cell1 == "")
+                           {alert("不要留下空白");return;}
+                           else if(schnum1 == "")
+                           {alert("不要留下空白");return;}
+                           else if(nm1 == "")
+                           {alert("不要留下空白");return;}
+                           nm.value="";
+                           schnum.value="";
+                           cell.value="";
+                           email.value="";
                            $.ajax({
-                           type:"POST",
+                           method:"POST",
                            url:'post.njs',
-                           data:{"nm":nm, "schnum":schnum, "cell":cell, "email":email},
-                           error: function(){
-                                              alert("Something's wrong");
-                                            },
-                           success:(data)=>{
-                                              alert("Welcome Baby");
-                                              container.fadeOut();
+                           data:{'nm':$('#nm').val(), 'schnum':$('#schnum').val(), 'cell':$('#cell').val(), 'email
+                           success:function(){
+                                              alert("感謝您的訂購!!!");
+
                                            }
                                                                      });
+
                                                       });
-                </script>
+          </script>
+
 
   </div> <!-- end of order online-->
 
