@@ -214,19 +214,34 @@ new WOW().init();
   <div class="container" id="oderonline">
 
     <h3 class="wow fadeInUp" data-wow-delay="0.3s"> 網路訂購</h3>
+    <div class="search">
+      <p><button id="orderchecker" class="w3-btn w3-orange w3-xlarge">OrderChecker<i class="w3-margin-left fa fa-search"></i></button></p>
+    </div>
     <form action='post.njs' method='POST'>
 
-    <input type="text"  class="name wow zoomIn"        placeholder="姓名"   name="nm">
-    <input type="text"  class="school_num  wow zoomIn" placeholder="學號"   name="schnum">
-    <input type="text"  class="cellphone wow zoomIn"   placeholder="手機"   name="cell">
-    <input type="text"  class="email wow zoomIn"       placeholder="E-mail" name="email">
- 
-       <br><br><br><br><br><br><br><br>
-    <div class="relative" >
-    <button  id='ajax' class="Button">送出訂單</button>
-    </div>
-    
+    <input type="text"  class="name wow zoomIn"        placeholder="姓名"   name="nm" id="nm">
+    <input type="text"  class="school_num  wow zoomIn" placeholder="學號"   name="schnum" id="schnum" >
+    <input type="text"  class="cellphone wow zoomIn"   placeholder="手機"   name="cell" id="cell">
+    <input type="text"  class="email wow zoomIn"       placeholder="E-mail" name="email" id="email">
+    <br><br><br><br><br><br><br><br>
+    <button  id='ajax' class="Button">commit</button>
+
     </form>
+<div id="Checkpage">
+  <div id="popCheck">
+               <h2 style="text-align:center">Check Your Order</h2>
+
+               <form>
+              <input type="text"  class="name "        placeholder="姓名"   name="checknm" id="checknm"><br>
+              <input type="text"  class="school_num " placeholder="學號or身分證末四碼"   name="checkschnum" id="checkschnum" ><br>
+              <button  id='confirm' class="Button">commit</button>
+              <button  id='closer' class="Button">close</button>
+                  </form>
+
+
+
+                                </div>
+                                                            </div>
            <script>
 
                            $("#ajax").click(function(e) {
@@ -243,14 +258,14 @@ new WOW().init();
                            {alert("不要留下空白");return;}
                            else if(nm1 == "")
                            {alert("不要留下空白");return;}
-                           nm.value="";
-                           schnum.value="";
-                           cell.value="";
-                           email.value="";
+                           nm1.value="";
+                           schnum1.value="";
+                           cell1.value="";
+                           eml1.value="";
                            $.ajax({
                            method:"POST",
                            url:'post.njs',
-                            data:{'nm':$('#nm').val(), 'schnum':$('#schnum').val(), 'cell':$('#cell').val(), 'email':$('#email').val()},
+                           data:{'nm':$('#nm').val(), 'schnum':$('#schnum').val(), 'cell':$('#cell').val(), 'email':$('#email').val()},
                            success:function(){
                                               alert("感謝您的訂購!!!");
 
@@ -258,17 +273,39 @@ new WOW().init();
                                                                      });
 
                                                       });
+                             $("#orderchecker").on("click", function(){
+                                 div_show("#Checkpage");
+                                   });
+                              //function to show Popup
+                                function div_show(ID){
+                                    $(ID).fadeIn();
+                                      }
+                              //function to hide Popup
+                                    $("#closer").on("click",function div_hide(){
+                                      $("#Checkpage").fadeOut();
+                                                  });
+
+
+                           $("#confirm").click(function(e) {
+                           e.preventDefault();
+                           var nm2 = $("#checknm").val();
+                           var schnum2 = $("#checkschnum").val();
+                           if(schnum2 == "")
+                           {alert("不要留下空白");return;}
+                           else if(nm2 == "")
+                           {alert("不要留下空白");return;}
+
+
+                          });
+
+
+
           </script>
 
 
   </div> <!-- end of order online-->
 
 </div> <!-- end of order online wrapper-->
-
-
-<!--============ Contact us ============-->
-
-<!--============ FOOTER ============-->
 
 
 <div class="footerwrapper">
