@@ -230,11 +230,11 @@ float:left; margin-left:45px;}
 
 
 
-.bestdisheswrapper{height:600px; background-color:#1AF2B1; background-size:cover; border-top:3px solid rgba(255,153,0,0.2);
+.bestdisheswrapper{height:600px; background-color:white; background-size:cover; border-top:3px solid rgba(255,153,0,0.2);
 
  border-bottom:3px solid rgba(255,153,0,0.4);  text-align:center;}
 
- .bestdisheswrapper #bestdishes h2 {color:white; font-size:35px;  letter-spacing:3px; font-family:"Noto Sans", "Noto Sans CJK TC", sans-serif; margin-top:30px;}
+ .bestdisheswrapper #bestdishes h2 {color:black; font-size:35px;  letter-spacing:3px; font-family:"Noto Sans", "Noto Sans CJK TC", sans-serif; margin-top:30px;}
 
 /*
 .bestdisheswrapper #bestdishes h2::before{content:url(../images/rectangle.png); position:relative; margin-right:15px;
