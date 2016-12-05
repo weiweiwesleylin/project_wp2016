@@ -42,7 +42,7 @@ $(document).ready(function() {
 new WOW().init();
 </script>
 
-
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 <script src="js/jquery.scrollnb.js" type="text/javascript"></script>
 </head>
 <body>
@@ -121,13 +121,13 @@ new WOW().init();
                     </p>
                     <div class="ui right labeled input">
                       <p>
-                        <input type="number" id="kgs1" value="1">
+                        <input type="number" id="kgs1" value="1" name="kgs1">
                       </p>  
                     </div>  
                   </div>
 
                <!--dragonfruit modal -->  
-                  <div class="ui modal">
+                  <div id="dragon" class="ui modal">
                     <i class="close icon"></i>
                     <div class="header">
                      <h3>火龍果</h3>
@@ -157,7 +157,7 @@ new WOW().init();
 
      <script type="text/javascript">
       $('#dragonfruit').click(function(){
-        $('.ui.modal').modal('show');
+        $("#dragon").modal('show');
          });
      </script>
 
@@ -174,7 +174,7 @@ new WOW().init();
                 </p>
                 <div class="ui right labeled input">
                   <p>
-                    <input type="number" id="kgs2" value="1">
+                    <input type="number" id="kgs2" value="1" name="kgs2">
                   </p>  
                 </div>  
               </div>                        
@@ -191,7 +191,7 @@ new WOW().init();
                     </p>
                     <div class="ui right labeled input">
                     <p>
-                      <input type="number" id="kgs3" value="1">
+                      <input type="number" id="kgs3" value="1" name="kgs3">
                     </p>  
                     </div>  
                     </div>
@@ -208,7 +208,7 @@ new WOW().init();
                     </p>
                     <div class="ui right labeled input">
                       <p>
-                        <input type="number" id="kgs4" value="1">
+                        <input type="number" id="kgs4" value="1" name="kgs4">
                       </p>  
                     </div>  
                     </div>
@@ -224,7 +224,7 @@ new WOW().init();
                     </p>
                     <div class="ui right labeled input">
                       <p>
-                        <input type="number" id="kgs5" value="1">
+                        <input type="number" id="kgs5" value="1" name="kgs5">
                       </p>  
                     </div>  
                   </div>
@@ -240,7 +240,7 @@ new WOW().init();
                     </p>
                     <div class="ui right labeled input">
                       <p>
-                        <input type="number" id="kgs6" value="1">
+                        <input type="number" id="kgs6" value="1" name="kgs6">
                       </p>  
                     </div>  
                   </div>
@@ -257,35 +257,74 @@ new WOW().init();
 <div class="orderonlinewrapper">
   <div class="container" id="oderonline">
 
-    <h3 class="wow fadeInUp" data-wow-delay="0.3s"> 網路訂購</h3>
+    <h3 class="wow fadeInUp" data-wow-delay="0.3s">快速訂購</h3>
     <div class="search">
       <p><button id="orderchecker" class="w3-btn w3-orange w3-xlarge">OrderChecker<i class="w3-margin-left fa fa-search"></i></button></p>
+      <p><button id="orderdeleter" class="w3-btn w3-teal w3-xlarge">OrderChecker<i class="w3-margin-left fa fa-trash"></i></button></p>
+
     </div>
     <form action='post.njs' method='POST'>
 
     <input type="text"  class="name wow zoomIn"        placeholder="姓名"   name="nm" id="nm">
-    <input type="text"  class="school_num  wow zoomIn" placeholder="學號"   name="schnum" id="schnum" >
+    <input type="text"  class="school_num  wow zoomIn" placeholder="學號or身分證末四碼"   name="schnum" id="schnum" >
     <input type="text"  class="cellphone wow zoomIn"   placeholder="手機"   name="cell" id="cell">
     <input type="text"  class="email wow zoomIn"       placeholder="E-mail" name="email" id="email">
     <br><br><br><br><br><br><br><br>
     <button  id='ajax' class="Button">commit</button>
 
     </form>
-<div id="Checkpage">
-  <div id="popCheck">
-               <h2 style="text-align:center">Check Your Order</h2>
+  </div>
+</div>
 
-               <form>
-              <input type="text"  class="name "        placeholder="姓名"   name="checknm" id="checknm"><br>
-              <input type="text"  class="school_num " placeholder="學號or身分證末四碼"   name="checkschnum" id="checkschnum" ><br>
-              <button  id='confirm' class="Button">commit</button>
-              <button  id='closer' class="Button">close</button>
-                  </form>
+                  <div id="chpage" class="ui modal">
+                    <i class="close icon"></i>
+                    <div class="header">
+                     <h3>Check Your Order</h3>
+                    </div>
+                    <div class="image content">
+                      <div class="ui medium image">
+                        <img src="images/fmlogo.png">
+                      </div>
+                      <div class="description">
+                          <input type="text"  class="name"        placeholder="姓名"   name="chnm" id="chnm">
+                          <input type="text"  class="cellphone"   placeholder="手機"   name="chcell" id="chcell"><br>
+                          <button  id='checker' class="Button">commit</button> 
+                      </div>
+                    </div>
+
+
+                  <div id="depage" class="ui modal">
+                    <i class="close icon"></i>
+                    <div class="header">
+                     <h3>Delete Your Order</h3>
+                    </div>
+                    <div class="image content">
+                      <div class="ui medium image">
+                        <img src="images/fmlogo.png">
+                      </div>
+                      <div class="description">
+                          <input type="text"  class="name"        placeholder="姓名"   name="denm" id="denm"><br>
+                          <input type="text"  class="cellphone"   placeholder="手機"   name="decell" id="decell">
+                          <br><br><br><br><br><br><br><br><br><br><br><br>
+                          <button  id='deleter' class="DButton">Delete</button>
+                      </div>
+                    </div>
+
+          <script type="text/javascript">
+                           $('#orderchecker').click(function(){
+                           $("#chpage").modal('show');});
+                           $('#orderdeleter').click(function(){
+                           $("#depage").modal('show');});
+
+          </script>
 
 
 
-                                </div>
-                                                            </div>
+
+
+
+
+
            <script>
                            $("#ajax").click(function(e) {
                            e.preventDefault();
@@ -301,40 +340,59 @@ new WOW().init();
                            {alert("不要留下空白");return;}
                            else if(nm1 == "")
                            {alert("不要留下空白");return;}
-                           nm1.value="";
-                           schnum1.value="";
-                           cell1.value="";
-                           eml1.value="";
                            $.ajax({
                            method:"POST",
                            url:'post.njs',
-                           data:{'nm':$('#nm').val(), 'schnum':$('#schnum').val(), 'cell':$('#cell').val(), 'email':$('#email').val()},
+                           data:{'nm':$('#nm').val(), 'schnum':$('#schnum').val(), 'cell':$('#cell').val(), 'email':$('#email').val(), 'kgs1':$("#kgs1").val(),
+                                 'kgs2':$("#kgs2").val(), 'kgs3':$("#kgs3").val(), 'kgs4':$("#kgs4").val(), 'kgs5':$("#kgs5").val(), 'kgs6':$("#kgs6").val() },
                            success:function(){
                                               alert("感謝您的訂購!!!");
                                            }
                                                                      });
                                                       });
-                             $("#orderchecker").on("click", function(){
-                                 div_show("#Checkpage");
-                                   });
-                              //function to show Popup
-                                function div_show(ID){
-                                    $(ID).fadeIn();
-                                      }
-                              //function to hide Popup
-                                    $("#closer").on("click",function div_hide(){
-                                      $("#Checkpage").fadeOut();
-                                                  });
-                           $("#confirm").click(function(e) {
+          </script>
+
+           <script>
+                           $("#deleter").click(function(e) {
                            e.preventDefault();
-                           var nm2 = $("#checknm").val();
-                           var schnum2 = $("#checkschnum").val();
-                           if(schnum2 == "")
+                           var nm2 = $("#denm").val();
+                           var cell2 = $("#decell").val();
+                           if(cell2 == "")
                            {alert("不要留下空白");return;}
                            else if(nm2 == "")
                            {alert("不要留下空白");return;}
-                          });
+                           $.ajax({
+                           method:"POST",
+                           url:'delete.njs',
+                           data:{'denm':$('#denm').val(), 'decell':$('#decell').val() },
+                           success:function(){
+                                              alert("The order has been deleted !!!");
+                                           }
+                                                                     });
+                                                      });
           </script>
+
+           <script>
+                           $("#checker").click(function(e) {
+                           e.preventDefault();
+                           var nm3 = $("#chnm").val();
+                           var cell3 = $("#chcell").val();
+                           if(cell3 == "")
+                           {alert("不要留下空白");return;}
+                           else if(nm3 == "")
+                           {alert("不要留下空白");return;}
+                           $.ajax({
+                           method:"POST",
+                           url:'check.njs',
+                           data:{'chnm':$('#chnm').val(), 'chcell':$('#chcell').val() },
+                           success:function(){
+                                              alert("The order has been deleted !!!");
+                                           }
+                                                                     });
+                                                      });
+          </script>
+
+
 
 
   </div> <!-- end of order online-->
