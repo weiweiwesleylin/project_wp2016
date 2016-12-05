@@ -230,11 +230,11 @@ float:left; margin-left:45px;}
 
 
 
-.bestdisheswrapper{height:600px; background-color:#c0c0c0; background-size:cover; border-top:3px solid rgba(255,153,0,0.2);
+.bestdisheswrapper{height:550px; background-color:white; background-size:cover; border-top:3px solid rgba(255,153,0,0.2);
 
  border-bottom:3px solid rgba(255,153,0,0.4);  text-align:center;}
 
- .bestdisheswrapper #bestdishes h2 {color:white; font-size:35px;  letter-spacing:3px; font-family:"Noto Sans", "Noto Sans CJK TC", sans-serif; margin-top:30px;}
+ .bestdisheswrapper #bestdishes h2 {color:black; font-size:35px;  letter-spacing:3px; font-family:"Noto Sans", "Noto Sans CJK TC", sans-serif; margin-top:30px;}
 
 /*
 .bestdisheswrapper #bestdishes h2::before{content:url(../images/rectangle.png); position:relative; margin-right:15px;
@@ -475,44 +475,44 @@ div#popCheck{
 
 .Button {
   -moz-box-shadow: 0px 1px 0px 0px #1c1b18;
-    -webkit-box-shadow: 0px 1px 0px 0px #1c1b18;
-      box-shadow: 0px 1px 0px 0px #1c1b18;
-        background:-webkit-gradient(linear, left top, left bottom, color-stop(0.05, #eae0c2), color-stop(1, #ccc2a6));
-          background:-moz-linear-gradient(top, #eae0c2 5%, #ccc2a6 100%);
-            background:-webkit-linear-gradient(top, #eae0c2 5%, #ccc2a6 100%);
-              background:-o-linear-gradient(top, #eae0c2 5%, #ccc2a6 100%);
-                background:-ms-linear-gradient(top, #eae0c2 5%, #ccc2a6 100%);
-                  background:linear-gradient(to bottom, #eae0c2 5%, #ccc2a6 100%);
-                    filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#eae0c2', endColorstr='#ccc2a6',GradientType=0);
-                      background-color:#eae0c2;
-                        -moz-border-radius:15px;
-                          -webkit-border-radius:15px;
-                            border-radius:15px;
-                              border:2px solid black;
-                                display:inline-block;
-                                  cursor:pointer;
-                                    color:black;
-                                      font-family:'Noto Sans Kannada', sans-serif;;
-                                        font-size:20px;
-                                          font-weight:bold;
-                                            padding:16px 30px;
-                                              text-decoration:none;
-                                                text-shadow:0px 1px 0px black;
-                                                }
-                                                .Button:hover {
-                                                  background:-webkit-gradient(linear, left top, left bottom, color-stop(0.05, #ccc2a6), color-stop(1, #eae0c2));
-                                                    background:-moz-linear-gradient(top, #ccc2a6 5%, #eae0c2 100%);
-                                                      background:-webkit-linear-gradient(top, #ccc2a6 5%, #eae0c2 100%);
-                                                        background:-o-linear-gradient(top, #ccc2a6 5%, #eae0c2 100%);
-                                                          background:-ms-linear-gradient(top, #ccc2a6 5%, #eae0c2 100%);
-                                                            background:linear-gradient(to bottom, #ccc2a6 5%, #eae0c2 100%);
-                                                              filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#ccc2a6', endColorstr='#eae0c2',GradientType=0);
-                                                                background-color:#ccc2a6;
-                                                                }
-                                                                .Button:active {
-                                                                  position:relative;
-                                                                    top:1px;
-                                                                    }
+  -webkit-box-shadow: 0px 1px 0px 0px #1c1b18;
+  box-shadow: 0px 1px 0px 0px #1c1b18;
+background:-webkit-gradient(linear, left top, left bottom, color-stop(0.05, #eae0c2), color-stop(1, #ccc2a6));
+background:-moz-linear-gradient(top, #eae0c2 5%, #ccc2a6 100%);
+background:-webkit-linear-gradient(top, #eae0c2 5%, #ccc2a6 100%);
+background:-o-linear-gradient(top, #eae0c2 5%, #ccc2a6 100%);
+background:-ms-linear-gradient(top, #eae0c2 5%, #ccc2a6 100%);
+background:linear-gradient(to bottom, #eae0c2 5%, #ccc2a6 100%);
+filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#eae0c2', endColorstr='#ccc2a6',GradientType=0);
+       background-color:#eae0c2;
+       -moz-border-radius:15px;
+       -webkit-border-radius:15px;
+       border-radius:15px;
+border:2px solid black;
+display:inline-block;
+cursor:pointer;
+color:black;
+      font-family:'Noto Sans Kannada', sans-serif;;
+      font-size:20px;
+      font-weight:bold;
+padding:16px 30px;
+        text-decoration:none;
+        text-shadow:0px 1px 0px black;
+}
+.Button:hover {
+background:-webkit-gradient(linear, left top, left bottom, color-stop(0.05, #ccc2a6), color-stop(1, #eae0c2));
+background:-moz-linear-gradient(top, #ccc2a6 5%, #eae0c2 100%);
+background:-webkit-linear-gradient(top, #ccc2a6 5%, #eae0c2 100%);
+background:-o-linear-gradient(top, #ccc2a6 5%, #eae0c2 100%);
+background:-ms-linear-gradient(top, #ccc2a6 5%, #eae0c2 100%);
+background:linear-gradient(to bottom, #ccc2a6 5%, #eae0c2 100%);
+filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#ccc2a6', endColorstr='#eae0c2',GradientType=0);
+       background-color:#ccc2a6;
+}
+.Button:active {
+position:relative;
+top:1px;
+}
 
 
 
@@ -540,8 +540,8 @@ div#popCheck{
  .myimage{border:3px solid #ff5a0b; border-radius:5px; margin:0px 3px 0px 3px; position:relative;
 
  opacity:0.4; cursor:pointer;}
-
-.contactwrapper .staff{display:block; position:relative; margin: 0px auto; width:650px}
+ 
+ .contactwrapper .staff{display:block; position:relative; margin: 0px auto; width:560px}
 
 .staff ul {list-style:none;}
 
