@@ -402,7 +402,7 @@ float:left; margin-left:45px;}
 
 
 .orderonlinewrapper{background-color:white;text-align:center; height:400px;}
-.orderonlinewrapper h3{ color:#cf0e1e; font-size:35px;  letter-spacing:8px; font-family:"Noto Sans", "Noto Sans CJK TC", sans-serif; font-weight:bold; margin-top:30px; margin-bottom:50px;}
+.orderonlinewrapper h3{ color:#ffce00; font-size:35px;  letter-spacing:8px; font-family:"Noto Sans", "Noto Sans CJK TC", sans-serif; font-weight:bold; margin-bottom:50px;}
 
  .name{background:#383636;  width:450px; height:87px; background-image:url(../images/icon4.png); background-position:7px 7px; background-repeat:no-repeat; border-radius:8px; border:0px; color:white; font-size:25px; font-family:'Noto Sans TC'; padding:0 30px;
 
@@ -518,8 +518,9 @@ top:1px;
 /*||||||||||||||||||||||||||||||||| CONTACT US ||||||||||||||||||||||||||||||*/
 .contactwrapper{background-color:#ffce00;height:350px; text-align:center;}
 
-.contactwrapper h3{ color:#cf0e1e; font-size:35px;  letter-spacing:8px; font-family:"Noto Sans", "Noto Sans CJK TC", sans-serif; font-weight:bold; margin-top:30px; margin-bottom:50px;}
+.contactwrapper h3{ color:#ffffff; font-size:35px;  letter-spacing:8px; font-family:"Noto Sans", "Noto Sans CJK TC", sans-serif; font-weight:bold; margin-top:30px; margin-bottom:50px;}
 
+.contactwrapper p{ color:#ffffff; font-size:15px}
 
 /*
 .contactwrapper  h3::before{content:url(../images/rectangle.png); position:relative; margin-right:15px;
@@ -552,13 +553,6 @@ top:1px;
 .footerwrapper{width:100%; background:#ffce00; border-top:4px solid #a8aaad;}
 
 footer{text-align:center; }
-
-footer h2{font-family:"Noto Sans", "Noto Sans CJK TC", sans-serif; font-size:20px; color:#dedede;}
-
-
-
-footer h2{margin-bottom:40px;}
-
 
 
 /**** Customer Reviews*****/
