@@ -248,7 +248,7 @@ float:left; margin-left:45px;}
 
 .item img{border:5px solid white;}
 
-.ui.input input{padding: 0.2em;}
+.ui.input input{padding: 0.2em;border-right-color: rgb(222, 222, 223);}
 
 .modal p{color:black}
 
