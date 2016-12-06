@@ -563,11 +563,11 @@ top:1px;
  /*.contactwrapper .staff ul li img{border:3px solid #ff5a0b; border-radius:5px; margin:0px 3px 0px 3px; position:relative;
  opacity:0.4; }*/
 
-.myimage2,.myimage3,.myimage4,.myimage5,.myimage6{border:3px solid #ff5a0b; border-radius:5px; margin:0px 3px 0px 3px; position:relative;
+.myimage2,.myimage3,.myimage4,.myimage5,.myimage6{border-radius:5px; margin:0px 3px 0px 3px; position:relative;
 
  opacity:0.4; cursor:pointer;}
 
- .myimage{border:3px solid #ff5a0b; border-radius:5px; margin:0px 3px 0px 3px; position:relative;
+.myimage{ border-radius:5px; margin:0px 3px 0px 3px; position:relative;
 
  opacity:0.4; cursor:pointer;}
  
@@ -581,7 +581,7 @@ top:1px;
 /*.soc-icon ul li{display:inline-block;}
 /****Footer****/
 
-.footerwrapper{width:100%; background:#ffce00; border-top:4px solid #a8aaad;}
+.footerwrapper{width:100%; height:450px; background:#ffce00; border-top:4px solid #a8aaad;}
 
 footer{text-align:center; }
 
