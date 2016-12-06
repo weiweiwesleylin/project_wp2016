@@ -571,13 +571,14 @@ top:1px;
 
  opacity:0.4; cursor:pointer;}
  
- .contactwrapper .staff{display:block; position:relative; margin: 0px auto; width:595px}
+ .contactwrapper .staff{display:block; position:relative; margin: 0px auto; width:1081px}
 
 .staff ul {list-style:none;}
 
-.staff ul li{float:left; margin: 5px;}
+.staff ul li{float:left; margin-left:50px; margin-right:50px;}
 
 .soc-icon{position:relative;left:50px;}
+.soc-icon li{ }
 /*.soc-icon ul li{display:inline-block;}
 /****Footer****/
 
