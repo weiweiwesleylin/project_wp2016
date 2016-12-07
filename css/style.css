@@ -571,11 +571,11 @@ top:1px;
 
  opacity:0.4; cursor:pointer;}
 
-.contactwrapper .staff{display:block; position:relative; margin: 0px auto; width:860px}
+.contactwrapper .staff{display:block; position:relative; margin: 0px auto; width:100%}
 
 .staff ul {list-style:none;}
 
-.staff ul li{float:left; margin-left:50px; margin-right:50px;}
+.staff ul li{float:left; margin-left:8.2%; margin-right:8.2%;}
 
 .soc-icon{position:relative;left:52px;}
 .staff .soc-icon li{ margin:5px; }
