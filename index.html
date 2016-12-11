@@ -110,7 +110,7 @@ new WOW().init();
       <div class="slider">
 
       <ul>
-          <li class="slide">
+         <li class="slide">
             <div class="item">
               <img src="images/dragonfruit4.jpg" width="226" height="225" alt="sliderimg" id="dragonfruit" class="wow flipInX"
                    data-wow-delay=".8s"> 
@@ -254,7 +254,9 @@ new WOW().init();
          });
      </script>
             </div> <!-- end of item-->
-            
+            </li><!--end of slide-->
+
+           <li class="slide"> 
             <div class="item">
               <img src="images/rape2.JPG" width="226" height="225" alt="sliderimg" id="rape"> 
               <h3>油菜</h3>
@@ -369,18 +371,59 @@ new WOW().init();
                 </div>
               </div>
             </div>
-
+      
      <script type="text/javascript">
       $('#zucchini').click(function(){
         $('.ui.modal.zucchini').modal('show');
          });
      </script>
+      </li><!--end of slide-->
 
-          </div> <!-- end of item-->
- 
-     </li>
+     </div> <!-- end of item-->
+     <ul class="list">数据加载中，请稍后...</ul>
+     <div class="more"><a href="javascript:;" onClick="lanren.loadMore();">加载更多</a></div>
+   </div> <!-- end of slider-->
 
-          <li class="slide">
+     <script src="http://www.lanrenzhijia.com/ajaxjs/jquery.min.js"></script>
+     <script>
+     var _content = []; //临时存储li循环内容
+     var lanren = {
+_default:10, //默认显示图片个数
+         _loading:5,  //每次点击按钮后加载的个数
+         init:function(){
+           var lis = $(".lanren .hidden li");
+           $(".lanren ul.list").html("");
+           for(var n=0;n<lanren._default;n++){
+             lis.eq(n).appendTo(".lanren ul.list");
+           }
+           $(".lanren ul.list img").each(function(){
+               $(this).attr('src',$(this).attr('realSrc'));
+               })
+           for(var i=lanren._default;i<lis.length;i++){
+             _content.push(lis.eq(i));
+           }
+           $(".lanren .hidden").html("");
+         },
+loadMore:function(){
+           var mLis = $(".lanren ul.list li").length;
+           for(var i =0;i<lanren._loading;i++){
+             var target = _content.shift();
+             if(!target){
+               $('.lanren .more').html("<p>全部加载完毕...</p>");
+               break;
+             }
+             $(".lanren ul.list").append(target);
+             $(".lanren ul.list img").eq(mLis+i).each(function(){
+                 $(this).attr('src',$(this).attr('realSrc'));
+                 });
+           }
+         }
+     }
+lanren.init();
+</script>
+     
+
+   <!--       <li class="slide">
             <div class="item">
               <img src="images/rape2.JPG" width="226" height="225" alt="sliderimg" id="rape"> 
               <h3>油菜</h3>
@@ -505,9 +548,8 @@ new WOW().init();
           </div> <!-- end of item-->
         </li>
                    
-      </ul>
-    </div> <!-- end of slider-->
-  </div> <!-- end of besth dishes-->
+      </ul>-->
+     </div> <!-- end of besth dishes-->
 </div> <!-- end of bestdishes wrapper-->
 
 <!--============ Order online ============-->
