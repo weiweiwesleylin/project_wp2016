@@ -253,7 +253,152 @@ new WOW().init();
          });
      </script>
             </div> <!-- end of item-->
-          </li>
+            
+            <div class="item">
+              <img src="images/dragonfruit4.jpg" width="226" height="225" alt="sliderimg" id="dragonfruit" class="wow flipInX"
+                   data-wow-delay=".8s"> 
+                <h3>火龍果</h3>
+                  <div class="fruit" data-daily-price1="20">
+                    <p>$<span id="total1">20元</span> 能買到 <span id="kg1">1</span>斤重</p>
+                    <p>
+                      <label for="kgs1"></label>
+                    </p>
+                    <div class="ui right labeled input">
+                      <p>
+                        <input type="number" id="kgs1" value="1" name="kgs1">
+                      </p>  
+                    </div>  
+                  </div>
+
+               <!--dragonfruit modal -->  
+                  <div id="dragon" class="ui modal dragonfruit">
+                    <div class="header">
+                     <h3>火龍果</h3>
+                    </div>
+                    <div class="image content">
+                      <div class="ui medium image">
+                        <img src="images/dragonfruit4.jpg">
+                      </div>
+                      <div class="description">
+                        <div class="ui header">吃火龍果排毒潤腸輕鬆瘦身</div>
+                        <p>火龍果又稱紅龍果、龍珠果，是仙人掌科三角柱屬（Hylocereus）或蛇鞭柱屬（Selenicereus）植物果實，呈現橢圓形，直徑10~12cm，外觀為紅色或黃色，有綠色圓角三角形的葉狀體，白色、紅色或黃色果肉，具有黑色種子的水果。</p>
+                      </div>
+                    </div>
+                    <!--
+                    <div class="actions">
+                      <div class="ui black deny button">
+                       不喜歡
+                      </div>
+                      <div class="ui positive right labeled icon button">
+                       給個讚
+                        <i class="checkmark icon"></i>
+                      </div>
+                    </div>
+                    -->
+                  </div>   
+            </div>
+
+     <script type="text/javascript">
+      $('#dragonfruit').click(function(){
+        $("#dragon").modal('show');
+         });
+     </script>
+
+            <!-- end of item-->
+                      
+            <div class="item2">
+              <img src="images/banana2.JPG" width="226" height="225" alt="sliderimg" id="banana" class="wow flipInX"
+               data-wow-delay=".8s"> 
+              <h3>香蕉</h3>
+              <div class="fruit" data-daily-price2="25">
+                <p>$<span id="total2">25元</span> 能買到 <span id="kg2">1</span>斤重</p>
+                <p>
+                  <label for="kgs2"></label>
+                </p>
+                <div class="ui right labeled input">
+                  <p>
+                    <input type="number" id="kgs2" value="1" name="kgs2">
+                  </p>  
+                </div>  
+              </div>
+
+              <!--banana modal -->  
+              <div class="ui modal banana">
+                <div class="header">
+                  <h3>香蕉</h3>
+                </div>
+                <div class="image content">
+                  <div class="ui medium image">
+                    <img src="images/banana2.JPG">
+                  </div>
+                  <div class="description">
+                    <div class="ui header">台灣擁有「香蕉王國」的美譽</div>
+                    <p>香蕉幾乎含有所有的維生素和礦物質，因此從中可以很容易地攝取各種營養素。
+                       香蕉膳食纖維含量豐富，具有很好的通便效果，加上含有果膠成分，能充分潤滑腸道，
+                       加速糞便通過的速度，不讓廢物滯留在腸道中，能避免產生致癌物，可有效預防腸癌。
+                       香蕉含有寡醣成分，具有能降低腸道的壞菌，增加腸道好菌的作用，而且雖然因甜度甚高而得其名，
+                       但是一根淨重約100克的香蕉的熱量大約相當是一餐白飯的一半或以下而已。<br>
+                       笑話：<br>
+                       有一天香蕉走在路上覺得腰很痛<br>
+                       然後，他決定去看醫生<br>
+                       結果，醫生跟他說<br>
+                       香蕉啊<br>
+                       你有脊椎側彎！<br>
+                    </p>
+                  </div>
+                </div>
+              </div>
+
+     <script type="text/javascript">
+      $('#banana').click(function(){
+        $('.ui.modal.banana').modal('show');
+         });
+     </script>
+            </div> <!-- end of item-->
+          
+            <div class="item3">
+              <img src="images/tomato4.jpg" width="226" height="225" alt="sliderimg" id=tomato class="wow flipInX"
+               data-wow-delay=".8s"> 
+              <h3>番茄</h3>
+		          <div class="fruit" data-daily-price3="20">
+                <p>$<span id="total3">20元</span> 能買到 <span id="kg3">1</span>斤重</p>
+                <p>
+                  <label for="kgs3"></label>
+                </p>
+                <div class="ui right labeled input">
+                  <p>
+                    <input type="number" id="kgs3" value="1">
+                  </p>  
+                </div>  
+              </div>
+                <!--tomato modal -->  
+              <div class="ui modal tomato">
+                <div class="header">
+                  <h3>番茄</h3>
+                </div>
+                <div class="image content">
+                  <div class="ui medium image">
+                    <img src="images/tomato4.jpg">
+                  </div>
+                  <div class="description">
+                    <div class="ui header">歐洲人稱其為「愛情蘋果」</div>
+                    <p>番茄種子內含脂肪，可以提煉食用油。還含有糖、有機酸、維生素等營養成分。
+                       糖主要是葡萄糖和果糖，酸主要是檸檬酸和蘋果酸。
+                       現在有研究指出，番茄內含有抗氧化物番茄紅素，能有效預防前列腺癌以及抵抗皮膚被紫外線曬傷，
+                       加熱烹煮後番茄會釋出更多茄紅素。一些研究人員還從番茄中提煉出物質治療高血壓。 
+                    </p>
+                  </div>
+                </div>
+              </div>
+
+     <script type="text/javascript">
+      $('#tomato').click(function(){
+        $('.ui.modal.tomato').modal('show');
+         });
+     </script>
+            </div> <!-- end of item-->
+ 
+     </li>
           <li class="slide">
             <div class="item">
               <img src="images/rape2.JPG" width="226" height="225" alt="sliderimg" id="rape"> 
@@ -541,7 +686,7 @@ new WOW().init();
           <div class="staff">
           <ul>
                   <li>
-                    <img src="images/林威辰-1.png" width="180" height="180" class="myimage wow fadeIn" title="mido" alt="1">
+                    <img src="images/optimizilla/林威辰-1-min.png" width="180" height="180" class="myimage wow fadeIn" title="mido" alt="1">
               <p style="color:black;  font-family:Noto Sans; font-weight:bold;">林威辰</p>
                     <p style="color:black;  font-family:Noto Sans; font-weight:bold;">dan840311@gmail.com</p>
                     <ul class=soc-icon>
@@ -551,7 +696,7 @@ new WOW().init();
                   </li>
 
                   <li>
-                    <img src="images/鄭旭程-1.png" width="180" height="180" class="myimage2 wow fadeIn" data-wow-delay="0.8s"
+                    <img src="images/optimizilla/鄭旭程-1-min.png" width="180" height="180" class="myimage2 wow fadeIn" data-wow-delay="0.8s"
                    alt="1">
               <p style="color:black;  font-family:Noto Sans; font-weight:bold;">鄭旭程</p>
               <p style="color:black;  font-family:Noto Sans; font-weight:bold;">e24032112@yahoo.com.tw</p>
@@ -562,7 +707,7 @@ new WOW().init();
                   </li>
 
                   <li>
-                    <img src="images/蔡宗蕙-1.png" width="180" height="180" class="myimage3 wow fadeIn" data-wow-delay="0.8s"
+                    <img src="images/optimizilla/蔡宗蕙-1-min.png" width="180" height="180" class="myimage3 wow fadeIn" data-wow-delay="0.8s"
                    alt="1">
               <p style="color:black;  font-family:Noto Sans; font-weight:bold;">蔡宗蕙</p>
         <p style="color:black;  font-family:Noto Sans; font-weight:bold;">qs2536@yahoo.com.tw</p>
