@@ -572,9 +572,10 @@ top:1px;
 
 .staff ul {list-style:none;}
 
-.staff ul li{float:left; margin-left:8.2%; margin-right:8.2%;}
+.staff ul li{float:left; width:18%; margin-left:8.2%; margin-right:8.2%;}
 
-.staff .personal_photo {width:20%;}
+.staff .personal_photo {width:100%;}
+
 .soc-icon{position:relative;left:52px;}
 .staff .soc-icon li{ margin:5px; }
 /*.soc-icon ul li{display:inline-block;}
