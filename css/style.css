@@ -16,7 +16,7 @@
 @font-face{font-family:Economica-Bold; src:url(../fonts/Economica-Bold.TTF);}
 
 
-body {background-position:0 105px; margin:0px; padding:0px; font-family:"Noto Sans"; font-size:20px;}
+body { margin:0px; padding:0px; font-family:"Noto Sans"; font-size:20px;}
 .container {width:1100px; margin:auto;}
 
 *{margin:0px; padding:0px;}
@@ -83,7 +83,7 @@ animation:rubberBand 0.9s; -webkit-animation:rubberBand 0.9s;}
 
 /*||||||||||||||||||||||||||||||||| SLIDER ||||||||||||||||||||||||||||||*/
 
-.sliderwrapper {background:url(../images/bgs.png); padding-top:50px;}
+.sliderwrapper {background:url(../images/bgs.png);background-repeat: no-repeat; padding-top:50px;}
 
 .sliderwrapper .slider ul {list-style:none;}
 
