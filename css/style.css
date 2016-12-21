@@ -16,7 +16,7 @@
 @font-face{font-family:Economica-Bold; src:url(../fonts/Economica-Bold.TTF);}
 
 
-body { margin:0px; padding:0px; font-family:"Noto Sans"; font-size:20px;}
+body {background-position:0 105px; margin:0px; padding:0px; font-family:"Noto Sans"; font-size:20px;}
 .container {width:1100px; margin:auto;}
 
 *{margin:0px; padding:0px;}
@@ -83,7 +83,7 @@ animation:rubberBand 0.9s; -webkit-animation:rubberBand 0.9s;}
 
 /*||||||||||||||||||||||||||||||||| SLIDER ||||||||||||||||||||||||||||||*/
 
-.sliderwrapper {background:url(../images/bgs.png);background-repeat: no-repeat; padding-top:50px;}
+.sliderwrapper {background:url(../images/bgs.png); padding-top:50px;}
 
 .sliderwrapper .slider ul {list-style:none;}
 
@@ -539,6 +539,10 @@ top:1px;
 	top:1px;
 }
 
+/*|||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||*/
+.marketinformationwrapper{background-color:white;text-align:center; height:350px; font-family:"Noto Sans", "Noto Sans CJK TC", sans-serif; font-weight:bold;}
+.marketinformationwrapper h3{ color:#38afa9; font-size:35px;  letter-spacing:3px; font-family:"Noto Sans", "Noto Sans CJK TC", sans-serif; font-weight:bold; margin-bottom:50px;}
+.marketinformationwrapper .information{float:left;}
 
 
 
@@ -577,6 +581,7 @@ top:1px;
 .staff .personal_photo {width:100%;}
 
 .soc-icon{position:relative;left:52px;}
+
 .staff .soc-icon li{ margin:5px; }
 /*.soc-icon ul li{display:inline-block;}
 /****Footer****/
