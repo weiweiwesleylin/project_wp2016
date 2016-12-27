@@ -543,7 +543,7 @@ top:1px;
 .marketinformationwrapper{background-color:white;text-align:center; height:350px; font-family:"Noto Sans", "Noto Sans CJK TC", sans-serif; font-weight:bold;}
 .marketinformationwrapper h3{ color:#38afa9; font-size:35px;  letter-spacing:3px; font-family:"Noto Sans", "Noto Sans CJK TC", sans-serif; font-weight:bold; margin-bottom:50px;}
 .marketinformationwrapper .information{float:left;}
-.marketinformationwrapper .market_img{float:right;}
+.marketinformationwrapper .market_img{float:right; width:35%;}
 
 
 
