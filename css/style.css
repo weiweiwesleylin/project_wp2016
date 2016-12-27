@@ -542,10 +542,10 @@ top:1px;
 /*|||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||*/
 .marketinformationwrapper{background-color:white;text-align:center; height:413px; font-family:"Noto Sans", "Noto Sans CJK TC", sans-serif;}
 .marketinformationwrapper h3{ color:#38afa9; font-size:35px;  letter-spacing:3px; font-family:"Noto Sans", "Noto Sans CJK TC", sans-serif; font-weight:bold; margin-bottom:50px;}
-.marketinformationwrapper .information{float:left;}
-.marketinformationwrapper .information p b{font-weight:700px; font-size:18px;}
-.marketinformationwrapper .information p{font-weight:600px; font-size:14px;}
-.marketinformationwrapper .market_img{float:right; width:40%;}
+.marketinformationwrapper .information{float:left;border:3px solid #71c780; padding:44px; border-radius: 25px;}
+.marketinformationwrapper .information p b{font-weight:800px; font-size:18px;}
+.marketinformationwrapper .information p{font-weight:700px; font-size:14px;}
+.marketinformationwrapper .market_img{float:right; width: 40%; border: 3px solid #71c780; border-radius: 25px;}
 
 
 
