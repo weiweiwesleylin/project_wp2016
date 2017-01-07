@@ -4,6 +4,7 @@
 <title>Farmers' market</title>
 
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
 
 <script src="js/jquery.js"></script> 
 
@@ -118,16 +119,14 @@ new WOW().init();
   <div id="bestdishes" class="container">
        
 	  <h2 class="wow fadeInUp" data-wow-delay="0.3s">有機蔬果</h2>
-      <div class="slider">
-
-      <ul>
-          <li class="slide">
+        <ul>
+          <li>
             <div class="item">
               <img src="images/dragonfruit4.jpg" width="226" height="225" alt="sliderimg" id="dragonfruit" class="wow flipInX"
                    data-wow-delay=".8s"> 
                 <h3>火龍果</h3>
-                  <div class="fruit" data-daily-price1="20">
-                    <p>$<span id="total1">20元</span> 能買到 <span id="kg1">1</span>斤重</p>
+                  <div class="fruit" data-daily-price1="150">
+                    <p><span id="kg1">1</span>斤重<span id="total1">150</span>元</p>
                     <p>
                       <label for="kgs1"></label>
                     </p>
@@ -162,17 +161,6 @@ new WOW().init();
                         <p>4、減肥、降血糖、潤腸滑腸、預防大腸、預防大腸癌發生等。</p>
                       </div>
                     </div>
-                    <!--
-                    <div class="actions">
-                      <div class="ui black deny button">
-                       不喜歡
-                      </div>
-                      <div class="ui positive right labeled icon button">
-                       給個讚
-                        <i class="checkmark icon"></i>
-                      </div>
-                    </div>
-                    -->
                   </div>   
             </div>
 
@@ -188,8 +176,8 @@ new WOW().init();
               <img src="images/banana2.JPG" width="226" height="225" alt="sliderimg" id="banana" class="wow flipInX"
                data-wow-delay=".8s"> 
               <h3>香蕉</h3>
-              <div class="fruit" data-daily-price2="25">
-                <p>$<span id="total2">25元</span> 能買到 <span id="kg2">1</span>斤重</p>
+              <div class="fruit" data-daily-price2="50">
+                <p><span id="kg2">1</span>斤重<span id="total2">50</span>元</p>
                 <p>
                   <label for="kgs2"></label>
                 </p>
@@ -241,8 +229,8 @@ new WOW().init();
               <img src="images/tomato4.jpg" width="226" height="225" alt="sliderimg" id=tomato class="wow flipInX"
                data-wow-delay=".8s"> 
               <h3>番茄</h3>
-		          <div class="fruit" data-daily-price3="20">
-                <p>$<span id="total3">20元</span> 能買到 <span id="kg3">1</span>斤重</p>
+		          <div class="fruit" data-daily-price3="105">
+                <p><span id="kg3">1</span>斤重<span id="total3">105</span>元</p>
                 <p>
                   <label for="kgs3"></label>
                 </p>
@@ -287,10 +275,11 @@ new WOW().init();
             </div> <!-- end of item-->
             
             <div class="item">
-              <img src="images/rape2.JPG" width="226" height="225" alt="sliderimg" id="rape"> 
+              <img src="images/rape2.JPG" width="226" height="225" alt="sliderimg" id="rape" class="wow flipInX"
+               data-wow-delay=".8s"> 
               <h3>油菜</h3>
-		          <div class="fruit" data-daily-price4="20">
-                <p>$<span id="total4">20元</span> 能買到 <span id="kg4">1</span>斤重</p>
+		          <div class="fruit" data-daily-price4="13">
+                <p><span id="kg4">1</span>斤重<span id="total4">13</span>元 </p>
                 <p>
                   <label for="kgs4"></label>
                 </p>
@@ -328,10 +317,11 @@ new WOW().init();
           </div> <!-- end of item-->
                       
           <div class="item2">
-            <img src="images/bokchoy1.jpg" width="226" height="225" id="bokchoy" alt="sliderimg"> 
+            <img src="images/bokchoy1.jpg" width="226" height="225" id="bokchoy" alt="sliderimg" class="wow flipInX"
+               data-wow-delay=".8s"> 
             <h3>小白菜</h3>
-		        <div class="fruit" data-daily-price5="20">
-              <p>$<span id="total5">20元</span> 能買到 <span id="kg5">1</span>斤重</p>
+		        <div class="fruit" data-daily-price5="11">
+              <p><span id="kg5">1</span>斤重<span id="total5">11</span> 元 </p>
               <p>
                 <label for="kgs5"></label>
               </p>
@@ -369,10 +359,11 @@ new WOW().init();
           </div> <!-- end of item-->
                       
           <div class="item3">
-            <img src="images/zucchini3.jpg" width="226" height="225" id="zucchini" alt="sliderimg"> 
+            <img src="images/zucchini3.jpg" width="226" height="225" id="zucchini" alt="sliderimg" class="wow flipInX"
+               data-wow-delay=".8s">
             <h3>節瓜</h3>
-            <div class="fruit" data-daily-price6="20">
-              <p>$<span id="total6">20元</span> 能買到 <span id="kg6">1</span>斤重</p>
+            <div class="fruit" data-daily-price6="100">
+              <p><span id="kg6">1</span>斤重<span id="total6">100</span> 元</p>
               <p>
                 <label for="kgs6"></label>
               </p>
@@ -411,7 +402,6 @@ new WOW().init();
  
      </li>       
       </ul>
-    </div> <!-- end of slider-->
   </div> <!-- end of besth dishes-->
 </div> <!-- end of bestdishes wrapper-->
 <!--============ Order online ============-->
