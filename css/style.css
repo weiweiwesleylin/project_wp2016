@@ -83,7 +83,7 @@ animation:rubberBand 0.9s; -webkit-animation:rubberBand 0.9s;}
 
 /*||||||||||||||||||||||||||||||||| SLIDER ||||||||||||||||||||||||||||||*/
 
-.sliderwrapper {background:url(../images/bgs.png);background-repeat:no-repeat; padding-top:50px;}
+.sliderwrapper {background:url(../images/bgs.png); background-repeat:no-repeat; background-size: 100%; padding-top:50px;}
 
 .sliderwrapper .slider ul {list-style:none;}
 
