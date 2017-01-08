@@ -52,6 +52,61 @@ $(document).ready(function() {
     $('#kg6').text($(this).val());
   });
 });
+
+$(document).ready(function() {
+  $('#kgs7').on('keyup', function() {
+    var kgs7 = +$(this).val();
+    var dailyPrice7 = +$(this).closest(".fruit").data("daily-price7");
+    $('#total7').text(kgs7 * dailyPrice7);
+    $('#kg7').text($(this).val());
+  });
+});
+
+$(document).ready(function() {
+  $('#kgs8').on('keyup', function() {
+    var kgs8 = +$(this).val();
+    var dailyPrice8 = +$(this).closest(".fruit").data("daily-price8");
+    $('#total8').text(kgs8 * dailyPrice8);
+    $('#kg8').text($(this).val());
+  });
+});
+
+$(document).ready(function() {
+  $('#kgs9').on('keyup', function() {
+    var kgs9 = +$(this).val();
+    var dailyPrice9 = +$(this).closest(".fruit").data("daily-price9");
+    $('#total9').text(kgs9 * dailyPrice9);
+    $('#kg9').text($(this).val());
+  });
+});
+
+$(document).ready(function() {
+  $('#kgs10').on('keyup', function() {
+    var kgs10 = +$(this).val();
+    var dailyPrice10 = +$(this).closest(".fruit").data("daily-price10");
+    $('#total10').text(kgs10 * dailyPrice10);
+    $('#kg10').text($(this).val());
+  });
+});
+
+$(document).ready(function() {
+  $('#kgs11').on('keyup', function() {
+    var kgs11 = +$(this).val();
+    var dailyPrice11 = +$(this).closest(".fruit").data("daily-price11");
+    $('#total11').text(kgs11 * dailyPrice11);
+    $('#kg11').text($(this).val());
+  });
+});
+
+$(document).ready(function() {
+  $('#kgs12').on('keyup', function() {
+    var kgs12 = +$(this).val();
+    var dailyPrice12 = +$(this).closest(".fruit").data("daily-price12");
+    $('#total12').text(kgs12 * dailyPrice12);
+    $('#kg12').text($(this).val());
+  });
+});
+
 /*$(document).ready(function(){
   $('#mango').click(function(){
     $('.ui.modal').modal('show');
