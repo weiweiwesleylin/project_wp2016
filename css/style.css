@@ -227,8 +227,7 @@ float:left; margin-left:45px;}
 /*||||||||||||||||||||||||||||||||| BEST DISHES ||||||||||||||||||||||||||||||*/
 
 
-
-.bestdisheswrapper{height:895px; background-color:white; background-size:cover; border-top:3px solid rgba(255,153,0,0.2);  text-align:center;}
+.bestdisheswrapper{height:1700px; background-color:white; background-size:cover; border-top:3px solid rgba(255,153,0,0.2);  text-align:center;}
 
  .bestdisheswrapper #bestdishes h2 {color:#ffce00; font-size:35px;  letter-spacing:3px; font-family:"Noto Sans", "Noto Sans CJK TC", sans-serif; margin-top:30px;}
 
