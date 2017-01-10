@@ -83,9 +83,9 @@ animation:rubberBand 0.9s; -webkit-animation:rubberBand 0.9s;}
 
 /*||||||||||||||||||||||||||||||||| SLIDER ||||||||||||||||||||||||||||||*/
 
-.sliderwrapper {background-color: #d7da7c;}
+.sliderwrapper {background-color: #fcd638;}
 
-#slider {background:url(../images/bgs.png); background-repeat:no-repeat; background-size:auto 100%; padding-top:50px;}
+#slider {background:url(../images/finalbg.png); background-repeat:no-repeat; background-size:auto 100%; padding-top:50px;}
 
 .sliderwrapper .slider ul {list-style:none;}
 
@@ -95,11 +95,9 @@ animation:rubberBand 0.9s; -webkit-animation:rubberBand 0.9s;}
 
 
 
-.sliderwrapper .slides h5{color:#ffce00; font-family:"Noto Sans", "Noto Sans CJK TC", sans-serif; font-weight:bold; font-size:25px; margin-bottom:30px; margin-left:45px;}
+.sliderwrapper .slides h5{color:#1d1a0e; font-family:"Noto Sans", "Noto Sans CJK TC", sans-serif; font-weight:bold; font-size:25px; margin-bottom:20px; margin-left:70px;}
 
-.sliderwrapper .slides p{color:#ffffff; font-family:"Noto Sans", "Noto Sans CJK TC", sans-serif; width:530px; line-height:2em; font-weight:200; font-size:15px;
-
-float:left; margin-left:45px;}
+.sliderwrapper .slides p{color:#1d1a0e; font-family:"Noto Sans", "Noto Sans CJK TC", sans-serif; width:460px; line-height:2em; font-weight:200; font-size:14px;float:left; margin-left:70px;}
 
 .sliderwrapper .slides img {float:right; margin-right:150px;}
 
@@ -551,12 +549,13 @@ top:1px;
 
 
 /*||||||||||||||||||||||||||||||||| CONTACT US ||||||||||||||||||||||||||||||*/
-.contactwrapper{background-color:#ffce00;height:350px; text-align:center;}
+.contactwrapper{height:550px; text-align:center;background-color:#ffce00;}
 
 .contactwrapper h3{ color:#ffffff; font-size:35px;  letter-spacing:3px; font-family:"Noto Sans", "Noto Sans CJK TC", sans-serif; font-weight:bold; margin-top:30px; margin-bottom:50px;}
 
 .contactwrapper p{ color:#ffffff; font-size:15px; letter-spacing:0.5px;}
 
+#contact{width:1100px;height:550px;background-color:#ffce00;padding-top:10px}
 /*
 .contactwrapper  h3::before{content:url(../images/rectangle.png); position:relative; margin-right:15px;
   top:-10px;}

@@ -2,6 +2,7 @@ $(document).ready(function() {
   $('#kgs1').on('keyup', function() {
     var kgs1 = +$(this).val();
     var dailyPrice1 = +$(this).closest(".fruit").data("daily-price1");
+    $('#dailyPrice1').text(dailyPrice1)
     $('#total1').text(kgs1 * dailyPrice1);
     $('#kg1').text($(this).val());
   });
